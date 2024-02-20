@@ -27,3 +27,7 @@
 .obsidian/plugins/obsidian-outliner/styles.css
 .obsidian/plugins/url-into-selection/main.js
 .obsidian/plugins/url-into-selection/manifest.json
+.obsidian/plugins/obsidian-git/data.json
+.obsidian/plugins/obsidian-git/main.js
+.obsidian/plugins/obsidian-git/manifest.json
+.obsidian/plugins/obsidian-git/styles.css

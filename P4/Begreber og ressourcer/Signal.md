@@ -2,7 +2,7 @@ listed among the best secure messaging app of 2022. Millions of users across tru
 
 open source, so freely inspect the app’s code for its security.
 
-"Signal's technology is based upon the [[AES-256]], [[Extended Triple Diffie-Hellman]], [[Double Ratchet]], and [[Sesame protocols]] to make it arguably the most secure messaging app on the market."
+"Signal's technology is based upon the [[AES]], [[Extended Triple Diffie-Hellman]], [[Double Ratchet]], and [[Sesame protocols]] to make it arguably the most secure messaging app on the market."
 ## Features
 - Open source protocol
 - Encrypted messages

@@ -10,8 +10,8 @@
 - **Passcode and Touch ID protection.**
 - **Screen capture blocking.**
 - **Timed conversations.**
-- **Online presence indicators.**
 - **Open Source.**
+- Online presence indicators.
 - Group chat
 - Media services
 - No specific file sizes.

@@ -8,6 +8,11 @@
 	- [[Wickr Me]]
 	- [[Wire - Secure messenger]]
 
+- Signal
+- Telegram
+- WhatsApp
+- Wickr Me
+- Wire - Secure Messenger
 ### Cost Factors To Consider For Developing a Message Application
 ![[Pasted image 20240219111222.png]]
 
@@ -24,7 +29,7 @@
 ### 1) [How to make a secure messaging app](https://www.amplework.com/blog/how-to-make-a-secure-messaging-app/)
 #### Snak om [[Signal]]
 *Currently, some popular messaging apps like – “**Signal**, **WhatsApp** and **Telegram**” offer [[end-to-end encryption projekt |end-to-end encryption]] as a standard feature.*
-[[Signal|Signal App]] also uses the Signal Protocol, the protocol uses a combination of advanced cryptographic techniques – including [[Extended Triple Diffie-Hellman|Diffie-Hellman]] key exchange and [[AES-256|AES encryption]].
+[[Signal|Signal App]] also uses the Signal Protocol, the protocol uses a combination of advanced cryptographic techniques – including [[Extended Triple Diffie-Hellman|Diffie-Hellman]] key exchange and [[AES|AES encryption]].
 
 Secure messaging also comes with a feature of [[self-destructing messages]]
 
@@ -107,7 +112,7 @@ Using a third-party service for your security allows you **to not have a single
 **Signal is the messaging service of choice for those in the cybersecurity field**, with the app using its own protocol to provide robust and reliable end-to-end encryption for voice, video, and instant messages. It’s no surprise, therefore, that the number of downloads of the app has soared over the summer, with **==an estimated 51,000 downloads in the week after George Floyd’s death on the 25th of May. This then grew to 78,000 new downloads as the protests began to spread nationwide.==**
 
 > [!NOTE] Signal's technology 
-> Signal's technology is based upon the [[AES-256]], [[Extended Triple Diffie-Hellman]], [[Double Ratchet]], and [[Sesame protocols]] to make it arguably the most secure messaging app on the market. This is reinforced by the open-source nature of the technology rendering it a constant source of testing by the cybersecurity community.
+> Signal's technology is based upon the [[AES]], [[Extended Triple Diffie-Hellman]], [[Double Ratchet]], and [[Sesame protocols]] to make it arguably the most secure messaging app on the market. This is reinforced by the open-source nature of the technology rendering it a constant source of testing by the cybersecurity community.
 
 
 #### Coordinating activity
@@ -136,7 +141,7 @@ There is a growing awareness of our personal responsibility to ensure that the w
 Currently, **==AES is one of the best encryption protocols available==**, as it flawlessly combines speed and security, letting us enjoy our daily online activities without any disruption. no surprise that AES **has become the industry standard for encryption.**
 
 #### What is AES (Advanced Encryption Standard) Encryption?
-[[AES-256]] is a **==symmetric==** **type of encryption, as it uses the same key to both encrypt and decrypt data.**
+[[AES]] is a **==symmetric==** **type of encryption, as it uses the same key to both encrypt and decrypt data.**
 
 t also uses the **==SPN (substitution permutation network) algorithm==**, applying multiple rounds to encrypt data. These encryption rounds are the reason behind the impenetrability of AES, as there are far too many rounds to break through.
 
