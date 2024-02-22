@@ -23,6 +23,7 @@ The concept of a [[random variables]] will be introduced. Two types of [[random 
 - How to handle jointly distributed multiple random variables?
 - How to define and work with expectation, variance and covariance
 ## Opgaver
+
 ### PDF med opgaver
 ![[Probability_Session2_Exercises.pdf]]
 
