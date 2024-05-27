@@ -1,3 +1,4 @@
+### [ALLE VIDEOER](https://www.probabilitycourse.com/videos/videos.php)
 ## Modul 1: 
 ![[Probability_theory_mm1.pdf]]
 ## Modul 2: 

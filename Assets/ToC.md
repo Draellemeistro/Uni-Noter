@@ -1,3 +1,4 @@
+#NAVIGATION
 
 Make a note of something, or try [the Importer](https://help.obsidian.md/Plugins/Importer)!
 https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols
@@ -7,9 +8,6 @@ https://www.reddit.com/r/OneNote/comments/r0h8yi/porting_my_notes_from_obsidian_
 
 https://mszturc.github.io/obsidian-advanced-slides/getting-start/installation/
 
-# Projekt: [[P4 Security in Application Development]]
-
-- [[inden rigtig start]]
 # Sandsynlighed
 
 - [[Practical Information]]

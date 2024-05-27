@@ -1,1 +1,0 @@
-![[Wireshark_DNS_v8.0-2.pdf]]

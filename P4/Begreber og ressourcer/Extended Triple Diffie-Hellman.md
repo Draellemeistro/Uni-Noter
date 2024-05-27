@@ -1,1 +1,0 @@
-Se også: [[Elliptic Curve Diffie-Hellman]]

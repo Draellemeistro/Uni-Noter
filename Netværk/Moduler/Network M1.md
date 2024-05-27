@@ -13,6 +13,8 @@
 # Chapters:
 ## Chapter 1: introduction
 Get “feel,” “big picture,” introduction to terminology
+
+![[Pasted image 20240527050044.png]]
 ### Overview/Roadmap
 - [[Wireshark]]
 - What is the Internet? What is a [[Protocol]]?
