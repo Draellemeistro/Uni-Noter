@@ -4,7 +4,7 @@
 
 
 > [!NOTE] Observations
-> **Comparisons with [[HTTP]]**:
+> **Comparisons with [[Netværk/Begreber/Application-layer/HTTP]]**:
 > - Both have ASCI command/response interaction, status codes
 > - **HTTP**: client pull **SMTP**: client push
 > - **HTTP**: Each object encapsulated in its own response message  **SMTP**: Multiple objects sent in multipart message
@@ -25,7 +25,7 @@
 	- SMTP handshaking (greeting)
 	- SMTP Transfer of message
 	- SMTP closure
-- Command/response interaction (like [[HTTP]])
+- Command/response interaction (like [[Netværk/Begreber/Application-layer/HTTP]])
 	- **Commands**: ASCII text
 	- **Response**: Status code and phrase
 	- ==sample SMTP interaction== *S: 220 hamburger.edu*

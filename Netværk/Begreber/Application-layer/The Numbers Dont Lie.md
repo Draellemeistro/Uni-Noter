@@ -2,6 +2,6 @@ VIDEOEN
 
 
 # Some categorizer thing
-## [[HTTP]]
+## [[Netværk/Begreber/Application-layer/HTTP]]
 ### [[Web Caches]]
 ![[Pasted image 20240527061657.png]]

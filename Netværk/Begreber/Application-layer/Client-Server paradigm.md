@@ -10,7 +10,7 @@
 - May habe dynamic IP addresses
 - Do not communicate directly with each other
 - Examples:
-	- [[HTTP]]
+	- [[Netværk/Begreber/Application-layer/HTTP]]
 	- [[IMAP]]
 	- [[FTP]]
 - 

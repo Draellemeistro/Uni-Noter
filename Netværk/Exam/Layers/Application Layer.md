@@ -6,7 +6,7 @@
 - [[Client-Server paradigm]]
 - [[peer-to-peer paradigm]]
 - [[App-layer protocols]]
-	- [[HTTP]]
+	- [[Netværk/Begreber/Application-layer/HTTP]]
 	- [[SMTP]]
 	- [[IMAP]]
 	- [[DNS]]

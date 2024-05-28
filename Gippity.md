@@ -41,7 +41,11 @@ Sure, let's go through each topic one by one based on the structure provided by 
 - Operates over TCP, typically on port 143.
 
 ### 4. Connection-Oriented vs Connectionless Service, UDP, ICMP
-
+[video om lige det](https://youtu.be/cA9ZJdqzOoU?si=jSZ4O_D4ZRjGyKNR)
+![[Pasted image 20240528181151.png]]
+- **==TCP vs UDP==**
+- do i want reliable? TCP
+- don't i care? maybe still TCP, but also maybe UDP
 **Connection-Oriented (TCP):**
 - Establishes a connection before data transfer.
 - Provides reliable, ordered, and error-checked delivery of data.
@@ -65,7 +69,7 @@ Sure, let's go through each topic one by one based on the structure provided by 
   - Retransmissions on timeout or negative acknowledgment (NAK)
   - Sequence numbers to detect duplicates and reorder segments
   - Error detection mechanisms like checksums
-
+[[Principles of reliable data transfer]]
 ### 6. TCP in General
 
 **TCP (Transmission Control Protocol):**

@@ -3,7 +3,7 @@
 > # See also
 
 
-| [[HTTP]] | [[cookies]] |
+| [[Netværk/Begreber/Application-layer/HTTP]] | [[cookies]] |
 | -------- | ----------- |
 |          |             |
 ![[Pasted image 20240527060430.png]]

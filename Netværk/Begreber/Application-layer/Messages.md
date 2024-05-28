@@ -10,7 +10,7 @@ Kind of like the field on a letter or other postal thiiing. How to send it, send
 
 
 # Message formats
-## [[HTTP]]
+## [[Netværk/Begreber/Application-layer/HTTP]]
 ### Request Message
 ![[Pasted image 20240527055023.png]]
 

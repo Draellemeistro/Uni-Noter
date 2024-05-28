@@ -17,7 +17,7 @@ S
 # See also
 
 
-| [[HTTP]] | [[The Numbers Dont Lie]] |
+| [[Netværk/Begreber/Application-layer/HTTP]] | [[The Numbers Dont Lie]] |
 | -------- | ------------------------ |
 |          |                          |
 

@@ -31,7 +31,7 @@
 	- [[IMAP]]: Internet Mail Access Protocol ==RFC 3501==
 		- Messages stored on server
 		- IMAP provides retrieval, deletion, folders of stored messages on server
-- [[HTTP]]: Gmail, Hotmail, Yahoo!Mail, etc. 
+- [[Netværk/Begreber/Application-layer/HTTP]]: Gmail, Hotmail, Yahoo!Mail, etc. 
 - provides web-based interface **==on top of==** 
 	- **SMTP** to send.
 	- **IMAP** or **POP** to retrieve e-mail messages

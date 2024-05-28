@@ -13,7 +13,7 @@
 # See also
 
 
-| [[HTTP]] | [[Network State]] |
+| [[Netværk/Begreber/Application-layer/HTTP]] | [[Network State]] |
 | -------- | ----------------- |
 |          |                   |
 
