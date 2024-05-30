@@ -9,6 +9,10 @@
 	- [[Network Address Translation]]
 	- [[IPv6]]
 	- [[Routing Algorithms]]
+		- CIDR
+	- [[DHCP]]: Dynamic Host Configuration Protocol
+	- [[subnets]]
+- [[Routers]]
 ## network-layer functions (Forwarding, Routing)
 
 

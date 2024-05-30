@@ -28,6 +28,76 @@ Wireshark questions: You will be asked to **discuss a randomly selected Wireshar
 - Transport layer protocols – TCP, UDP
 - The Internet layer, IP addressing, routing protocols
 - Link layer protocols and LANs
+
+# Layers
+![[scan0501.jpg]]
+## intro(Physical Layer?)
+
+## Application Layer
+- Principles of network applications
+	- Processes have transport-service needs(of varying degrees): [[Transport service requirements]]
+		- Data integrity
+		- Throughput
+		- Timing
+		- security
+- [[Application-layer protocols]]
+- Web and HTTP
+	- **2 types of [[HTTP connections]]**
+		- Persistent HTTP
+		- Non-persistent HTTP
+	- **2 types of HTTP messages** ==client pull==
+		- Request (GET, POST, HEAD, PUT)
+		- Response
+	- State, and maintaining it
+		- Session
+		- Cookies
+	- Web caches (aka proxy server)
+	- HTTP/1, /2 , /3
+- Email, SMTP, IMAP
+	- ==client push==
+- DNS: Domain Name System
+- **2 paradigms:**
+	- Client-server
+	- Peer-to-peer
+- Programming network applications
+	- socket API
+	- TLS (to secure TCP)
+- Andet: POP3 , CDNs
+
+## Transport Layer
+
+## Network Layer
+
+#### Data Plane
+- What's inside a router?
+	- Input ports, switching, output ports
+	- buffer management, scheduling
+- IP: the Internet Protocol
+	- datagram format
+	- addressing
+	- NAT: Network Address Translation
+	- IPv4 & IPv6
+#### Control Plane
+
+> [!tip] Two approaches to structuring network control plane:
+> **per-router control (traditional)**
+> **logically centralized control (software defined networking)**
+
+- routing protocols
+	- Link state
+	- Distance vectors
+- Intra-ISP routing: OSPF
+- routing among ISPs: BGP
+- Internet Control Message Protocol (ICMP)
+
+## Link Layer
+- error detection, correction 
+- multiple access protocols 
+- LANs 
+	- addressing, ARP
+	- Ethernet 
+	- switches 
+	- VLANs
 ## Part 1: Questions:
 
 ChatGPT forsøger at takle spørgsmålene: [[Gippity]]
@@ -36,6 +106,11 @@ ChatGPT forsøger at takle spørgsmålene: [[Gippity]]
 [OSImodel-TCP/IP](https://www.youtube.com/watch?v=OTwp3xtd4dg&list=PLF1hDMPPRqGxpYdo0ctaa7MxfOi9vjs1u&index=5)
 [DataLinkLayer](https://www.youtube.com/watch?v=_b4dXKB8Pt8&pp=ygUYbXVsdGlwbGUgYWNjZXNzIHByb3RvY29s)
 1. **[[The structure of Internet, server-client vs P2P service architecture]]**
+	1. [P2P](https://www.youtube.com/watch?v=3DFVLCnwWOs)
+	2. [Client-Server](https://www.youtube.com/watch?v=L5BlpPU_muY&pp=ygVEVGhlIHN0cnVjdHVyZSBvZiBJbnRlcm5ldCwgc2VydmVyLWNsaWVudCB2cyBQMlAgc2VydmljZSBhcmNoaXRlY3R1cmU%3D)
+	3. [clientserverArchitecture](https://www.youtube.com/watch?v=ve82kSSj_Hs&pp=ygVEVGhlIHN0cnVjdHVyZSBvZiBJbnRlcm5ldCwgc2VydmVyLWNsaWVudCB2cyBQMlAgc2VydmljZSBhcmNoaXRlY3R1cmU%3D)
+	4. [P2P og ClientServer](https://www.youtube.com/watch?v=-0thZyLPoBM&pp=ygVEVGhlIHN0cnVjdHVyZSBvZiBJbnRlcm5ldCwgc2VydmVyLWNsaWVudCB2cyBQMlAgc2VydmljZSBhcmNoaXRlY3R1cmU%3D)
+	5. [samletVideo](https://www.youtube.com/watch?v=1bRfeKQfDbU&pp=ygVEVGhlIHN0cnVjdHVyZSBvZiBJbnRlcm5ldCwgc2VydmVyLWNsaWVudCB2cyBQMlAgc2VydmljZSBhcmNoaXRlY3R1cmU%3D)
 2. **[[Http]]**
 	1. [HTTPandWEB](https://www.youtube.com/watch?v=eesqK59rhGA)
 	2. [FTP](https://www.youtube.com/watch?v=L9aZpg0ip70&list=PLF1hDMPPRqGxpYdo0ctaa7MxfOi9vjs1u&index=25)
@@ -53,7 +128,7 @@ ChatGPT forsøger at takle spørgsmålene: [[Gippity]]
 5. **[[Principles of reliable data transfer]]**
 	1. [TCPConnectionManage](https://www.youtube.com/watch?v=wQ4_N73duO0&list=PLT5HQnX0CnpUfvgrqBSLkSinFQwrs_6j7)
 	2. [TCPCongestionControl](https://www.youtube.com/watch?v=uEN-71R4gjQ)
-	3. 
+	3. [rdt](https://www.youtube.com/watch?v=j93DZaMMjfg&list=PLo80JwUm6hSTzA5y9-tcvgM7wEWZIGnYj&index=4&pp=iAQB)
 6. **[[TCP in general]]**
 	
 7. **[[TCP flow and congestion control]]**
@@ -72,32 +147,46 @@ ChatGPT forsøger at takle spørgsmålene: [[Gippity]]
 	2. [IPv4](https://www.youtube.com/watch?v=EDAnsWpOjGM&list=PLF1hDMPPRqGxpYdo0ctaa7MxfOi9vjs1u&index=9)
 	3. [IPv6](https://www.youtube.com/watch?v=irhS0ASkvy8&list=PLF1hDMPPRqGxpYdo0ctaa7MxfOi9vjs1u&index=10)
 	4. [PortStuff](https://www.youtube.com/watch?v=RDotMcs0Erg&list=PLF1hDMPPRqGxpYdo0ctaa7MxfOi9vjs1u&index=7)
+	5. [SubnetMasks](https://www.youtube.com/watch?v=s_Ntt6eTn94)
+	6. [IP addressing and subnetting CIDR](https://www.youtube.com/watch?v=OqsXzkXfwRw&pp=ygUwYWRkcmVzc2luZyBiZXR3ZWVuIHR3byBsYW5zIGluIGNvbXB1dGVyIG5ldHdvcmtz)
 10. **[[Link state vs distance vector routing algorithms]]**
 	1. BGP [Nr1](https://www.youtube.com/watch?v=2rV4tJkP-CQ)
 	2. [LinkStateVsDistVector](https://www.youtube.com/watch?v=KjNYEzEBRD8&pp=ygUKTGluayBzdGF0ZQ%3D%3D) [KortereVideo](https://www.youtube.com/watch?v=nMqUkVi_j_4&pp=ygUKTGluayBzdGF0ZQ%3D%3D)
+	3. [meget kort video](https://www.youtube.com/watch?v=oF_pEiYi0TQ&pp=ygUwTGluayBzdGF0ZSB2cyBkaXN0YW5jZSB2ZWN0b3Igcm91dGluZyBhbGdvcml0aG1z)
+	4. [eksempel](https://www.youtube.com/watch?v=00AAnwgl2DI&pp=ygUwTGluayBzdGF0ZSB2cyBkaXN0YW5jZSB2ZWN0b3Igcm91dGluZyBhbGdvcml0aG1z)
 11. **[[Intra-AS vs Inter-AS routing]]**
 	1. [Intra-AS: IGP(OSPF)](https://www.youtube.com/watch?v=Zl_H8dyyz2k)
 	2. [godTrorJeg](https://www.youtube.com/watch?v=KKd4B3y84yE)
-12. **[[Reliability as seen in transport- and link layer (wired and wireless)]]**
-13. **[[Variants of multiple access protocols]]**
+12. **[[Variants of multiple access protocols]]**
 	1. [MultAccsProt](https://www.youtube.com/watch?v=YAjfUc7Tt24&pp=ygUYbXVsdGlwbGUgYWNjZXNzIHByb3RvY29s)
-14. **[[ALOHA vs CSMA CD]]**
-15. **[[802.11 association procedure, CSMA CA]]**
-	1. [CSMA](https://www.youtube.com/watch?v=iKn0GzF5-IU&pp=ygUYbXVsdGlwbGUgYWNjZXNzIHByb3RvY29s)
-16. **[[ARP, switched Ethernet, VLANs]]**
+	2. [Multiple Access Links adn Protocols](https://www.youtube.com/watch?v=X2cLpzFRMT4&pp=ygUOYWxvaGEgcHJvdG9jb2w%3D)
+13. **[[ALOHA vs CSMA CD]]**
+	1. [OSPF](https://www.youtube.com/watch?v=kfvJ8QVJscc&list=PLF1hDMPPRqGxpYdo0ctaa7MxfOi9vjs1u&index=18)
+	2. [CSMA](https://www.youtube.com/watch?v=iKn0GzF5-IU&pp=ygUYbXVsdGlwbGUgYWNjZXNzIHByb3RvY29s)
+	3. [ALOHA Protocol - basic](https://www.youtube.com/watch?v=QXk17zCpWiU&pp=ygUOYWxvaGEgcHJvdG9jb2w%3D)
+	4. [Pure ALOHA vs Slotted ALOHA](https://www.youtube.com/watch?v=ROspSlGOL3g&pp=ygUOYWxvaGEgcHJvdG9jb2w%3D)
+	5. [More ALOHA](https://www.youtube.com/watch?v=M-jRqN2wGvo&pp=ygUOYWxvaGEgcHJvdG9jb2w%3D) 
+	6. [More Slotted ALOHA](https://www.youtube.com/watch?v=aqWTNk90zRA&pp=ygUOYWxvaGEgcHJvdG9jb2w%3D)
+14. **[[ARP, switched Ethernet, VLANs]]**
 	1. [MACaddy](https://www.youtube.com/watch?v=N7dM_kD28dM&list=PLF1hDMPPRqGxpYdo0ctaa7MxfOi9vjs1u&index=11)
 		1. [TypesOfMACAdresses](https://www.youtube.com/watch?v=xcbneThdpLg)
 	2. [ARP](https://www.youtube.com/watch?v=aamG4-tH_m8&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=10) [BEDRE](https://www.youtube.com/watch?v=tXzKjtMHgWI) [FINnok](https://www.youtube.com/watch?v=cn8Zxh9bPio) 
 	3. [gennemgang](https://www.youtube.com/watch?v=xNbdeyEI-nE&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW&index=11)
-17. **[[A day in the life of a web request]]**
+15. **[[A day in the life of a web request]]**
 	1. [VideoTilDen](https://www.youtube.com/watch?v=I6twhxwycyM)
-18. 
-19. **[[DNS, NAT, DHCP]]**
+16. **[[DNS, NAT, DHCP]]**
 	1. [DHCP](https://www.youtube.com/watch?v=S43CFcpOZSI&list=PLF1hDMPPRqGxpYdo0ctaa7MxfOi9vjs1u&index=22) + [DENher](https://www.youtube.com/watch?v=s_iwZWFa9Ao)
 	2. [DNS](https://www.youtube.com/watch?v=FsGUi5pXpLk&list=PLF1hDMPPRqGxpYdo0ctaa7MxfOi9vjs1u&index=26)
 	3. [NAT](https://www.youtube.com/watch?v=qij5qpHcbBk&list=PLF1hDMPPRqGxpYdo0ctaa7MxfOi9vjs1u&index=22)
-20. **[[Error detection as seen in various protocols]]**
-21. **[[Addressing between two LANS both connected to the Internet]]**
+17. **[[Error detection as seen in various protocols]]**
+	1. [checksum](https://www.youtube.com/watch?v=RFOGDY2e0mQ&pp=ygUIQ2hlY2tzdW0%3D)
+	2. [VRC, LRC, CRC](https://www.youtube.com/watch?v=EMrY-8m8D1E&pp=ygUkZXJyb3IgZGV0ZWN0aW9uIGluIGNvbXB1dGVyIG5ldHdvcmtz)
+	3. [error detection and correction](https://www.youtube.com/watch?v=x-rQ3RiI7I0&pp=ygUkZXJyb3IgZGV0ZWN0aW9uIGluIGNvbXB1dGVyIG5ldHdvcmtz)
+18. **[[Addressing between two LANS both connected to the Internet]]**
+	1. [Subnets vs VLANs](https://www.youtube.com/watch?v=6_giEv20En0&pp=ygUwYWRkcmVzc2luZyBiZXR3ZWVuIHR3byBsYW5zIGluIGNvbXB1dGVyIG5ldHdvcmtz)
+	2. [LAN WAN SUBNET explained](https://www.youtube.com/watch?v=NyZWSvSj8ek&pp=ygUwYWRkcmVzc2luZyBiZXR3ZWVuIHR3byBsYW5zIGluIGNvbXB1dGVyIG5ldHdvcmtz)
+	3. [Routers and default gateways](https://www.youtube.com/watch?v=JOomC1wFrbU&pp=ygUwYWRkcmVzc2luZyBiZXR3ZWVuIHR3byBsYW5zIGluIGNvbXB1dGVyIG5ldHdvcmtz)
+	4. [Connecting two subnets via router](https://www.youtube.com/watch?v=pgO3E2JhN7o&pp=ygUwYWRkcmVzc2luZyBiZXR3ZWVuIHR3byBsYW5zIGluIGNvbXB1dGVyIG5ldHdvcmtz)
 ![[Pasted image 20240528182222.png]]
 ![[Pasted image 20240528182255.png]]
 ![[Pasted image 20240528213624.png]]

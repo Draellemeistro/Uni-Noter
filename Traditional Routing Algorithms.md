@@ -10,9 +10,23 @@
 
 
 
+![[Pasted image 20240529113250.png]]
+
 ## Graph abstraction: link costs
 ![[Pasted image 20240527152726.png]]
 
 ## Routing algorithm classification
 [[Link state vs distance vector routing algorithms]]
 ![[Pasted image 20240527152813.png]]
+
+
+# Intra-AS routing
+### [[RIP]]: 
+- Classic DV: DVs exchanged every 30 secs
+- no longer widely use
+### [[EIGRP]]: 
+- DV based
+- Formerly Cisco-proprietary for decades (open in 2013)
+### [[OSPF]]: 
+- Link-state routing
+- IS-IS protocol (ISO std, not RFC std) essentially same as OSPF
