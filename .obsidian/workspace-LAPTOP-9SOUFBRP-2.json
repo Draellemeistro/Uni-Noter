@@ -1,0 +1,252 @@
+{
+  "main": {
+    "id": "54527f894596f917",
+    "type": "split",
+    "children": [
+      {
+        "id": "8df24b0c5866db99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "73ce3591c9440285",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "38006515a8a129bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "ede9826eba690e8f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad5659029fb6966e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "1ea62fb40607902b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "verif",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dc4aae4a3df4c706",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 261.5
+  },
+  "right": {
+    "id": "ef71b5109fe77d52",
+    "type": "split",
+    "children": [
+      {
+        "id": "dcbde0d93175dbc9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e4f3641293000e0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "83d35529e3d721b6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6f71c43d342786a9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6d891285d7062e64",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 236.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "floating": {
+    "id": "ef8345c49253bd83",
+    "type": "floating",
+    "children": [
+      {
+        "id": "e44e286b43ef5efb",
+        "type": "window",
+        "children": [
+          {
+            "id": "d46bc88115e25635",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1b0b3a4a618b9af2",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2392,
+        "y": 0,
+        "width": 1024,
+        "height": 752,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "3d3cef32b39e515d",
+        "type": "window",
+        "children": [
+          {
+            "id": "2ba15488cbbaca4d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "446cdefd2dc9f387",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1714,
+        "y": 4,
+        "width": 1024,
+        "height": 752,
+        "maximize": false,
+        "zoom": -0.5
+      }
+    ]
+  },
+  "active": "73ce3591c9440285",
+  "lastOpenFiles": [
+    "Netværk/Begreber/Intro",
+    "Netværk/Begreber/ToBeSorted/HTML.md",
+    "Netværk/Begreber/ToBeSorted/RC5.md",
+    "Netværk/Begreber/ToBeSorted/Routing.md",
+    "Netværk/Begreber/ToBeSorted/SSL.md",
+    "Netværk/Begreber/ToBeSorted/TCP and IP.md",
+    "Netværk/Begreber/ToBeSorted/TSL.md",
+    "Netværk/Begreber/ToBeSorted/Circuit switching.md",
+    "Netværk/Begreber/ToBeSorted/frequency division multiplexing (FDM).md",
+    "Netværk/Begreber/ToBeSorted/hybrid fiber coax (HFC).md",
+    "Netværk/Begreber/ToBeSorted/Internet History.md",
+    "Netværk/Begreber/ToBeSorted/Network core.md",
+    "Netværk/Begreber/ToBeSorted/Network edge.md",
+    "Netværk/Begreber/ToBeSorted/Protocol.md",
+    "Netværk/Begreber/ToBeSorted/Performance.md",
+    "Netværk/Begreber/ToBeSorted/Time Division Multiplexing (TDM).md",
+    "Netværk/Begreber/ToBeSorted/Wireshark intro.md",
+    "Netværk/Begreber/ToBeSorted/Wireshark.md",
+    "Netværk/Begreber/Network-layer/Control plane",
+    "Netværk/Begreber/Network-layer/Data plane",
+    "Netværk/Begreber/Network-layer",
+    "Netværk/Begreber/Link-layer",
+    "Netværk/Begreber/Transport-layer",
+    "Netværk/Begreber/Application-layer/HTTP.md",
+    "Netværk/Exam/Layers",
+    "Netværk/Begreber/Application-layer",
+    "diagrammer.md",
+    "Netværk/Exam/NetworkWireshark/Opgaverne",
+    "Netværk/Exam/NetworkWireshark",
+    "Netværk/Exam/Exam Question Lectures",
+    "Netværk/Exam/SUMMARY Wireshark opgaver.md",
+    "Netværk/Begreber/ToBeSorted/Wireshark Lab DNS.md",
+    "Netværk/Begreber/ToBeSorted/wireshark lab HTTP.md",
+    "Til  Rew Criteria properties snak.md",
+    "mixnets.md",
+    "HUSK HUSK HUSK.md",
+    "Assets/To be sorted/Pasted image 20240513150219.png",
+    "Assets/To be sorted/Pasted image 20240513145219.png",
+    "Assets/To be sorted/Pasted image 20240513145155.png",
+    "Assets/To be sorted/Pasted image 20240513145119.png",
+    "Assets/To be sorted/Pasted image 20240513145004.png",
+    "Assets/To be sorted/Pasted image 20240513144950.png",
+    "Assets/To be sorted/Pasted image 20240513144931.png",
+    "Assets/To be sorted/Pasted image 20240513144847.png",
+    "Assets/To be sorted/Pasted image 20240513144411.png",
+    "Assets/To be sorted/Pasted image 20240513144335.png",
+    "Untitled.canvas"
+  ]
+}
