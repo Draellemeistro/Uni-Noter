@@ -1,0 +1,260 @@
+{
+  "main": {
+    "id": "54527f894596f917",
+    "type": "split",
+    "children": [
+      {
+        "id": "8df24b0c5866db99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "73ce3591c9440285",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sandsynlighed og Statistik/Exam/Noter/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "38006515a8a129bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "ede9826eba690e8f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad5659029fb6966e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "1ea62fb40607902b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "verif",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dc4aae4a3df4c706",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 261.5
+  },
+  "right": {
+    "id": "ef71b5109fe77d52",
+    "type": "split",
+    "children": [
+      {
+        "id": "dcbde0d93175dbc9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e4f3641293000e0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Sandsynlighed og Statistik/Exam/Noter/Untitled.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "83d35529e3d721b6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Sandsynlighed og Statistik/Exam/Noter/Untitled.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6f71c43d342786a9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6d891285d7062e64",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Sandsynlighed og Statistik/Exam/Noter/Untitled.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 236.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "floating": {
+    "id": "ef8345c49253bd83",
+    "type": "floating",
+    "children": [
+      {
+        "id": "e44e286b43ef5efb",
+        "type": "window",
+        "children": [
+          {
+            "id": "d46bc88115e25635",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1b0b3a4a618b9af2",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 2392,
+        "y": 0,
+        "width": 1024,
+        "height": 752,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "3d3cef32b39e515d",
+        "type": "window",
+        "children": [
+          {
+            "id": "2ba15488cbbaca4d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "446cdefd2dc9f387",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1714,
+        "y": 4,
+        "width": 1024,
+        "height": 752,
+        "maximize": false,
+        "zoom": -0.5
+      }
+    ]
+  },
+  "active": "73ce3591c9440285",
+  "lastOpenFiles": [
+    "Sandsynlighed og Statistik/Exam/Noter/4ProbNotes.md",
+    "Sandsynlighed og Statistik/Exam/Noter/Untitled.md",
+    "Sandsynlighed og Statistik/Exam/Noter/3ProbNotes.md",
+    "Sandsynlighed og Statistik/Exam/Noter/2ProbNotes.md",
+    "Sandsynlighed og Statistik/Exam/Noter/1ProbNotes.md",
+    "Sandsynlighed og Statistik/Exam/Noter",
+    "Netværk/Begreber/ToBeSorted/ARP.md",
+    "Netværk/Begreber/ToBeSorted/Dijkstras link-state routing algorithm.md",
+    "Netværk/Begreber/ToBeSorted/Distance Vector.md",
+    "Netværk/Begreber/ToBeSorted/RIP.md",
+    "Netværk/Begreber/ToBeSorted/EIGRP.md",
+    "Netværk/Begreber/ToBeSorted/interANDintra-AS routing.md",
+    "Netværk/Begreber/ToBeSorted/DHCP.md",
+    "Netværk/Begreber/ToBeSorted/subnets.md",
+    "Netværk/Begreber/ToBeSorted/Routers.md",
+    "Netværk/Begreber/ToBeSorted/problemer.md",
+    "Netværk/Begreber/ToBeSorted/HTTP connections.md",
+    "Netværk/Begreber/ToBeSorted/Transport service requirements.md",
+    "Netværk/Begreber/ToBeSorted/Application-layer protocols.md",
+    "Netværk/Begreber/ToBeSorted/Billeder til Netwerk.md",
+    "Netværk/Begreber/ToBeSorted/links.md",
+    "Netværk/Begreber/ToBeSorted/quiz.md",
+    "Netværk/Begreber/ToBeSorted/ICMP opg 8 og 9.md",
+    "Netværk/Begreber/ToBeSorted/Logically centralized control.md",
+    "Netværk/Begreber/ToBeSorted/Per-route control.md",
+    "Netværk/Begreber/ToBeSorted/Network Layer functions.md",
+    "Netværk/Begreber/ToBeSorted/ICMP Internet Control Message Protocol.md",
+    "Sandsynlighed og Statistik/Begreber/Diskret",
+    "Sandsynlighed og Statistik/Forberedelses noter",
+    "Sandsynlighed og Statistik/Moduler",
+    "Sandsynlighed og Statistik/Exam",
+    "Sandsynlighed og Statistik/Begreber",
+    "Sandsynlighed og Statistik",
+    "Netværk/Exam/NetworkWireshark/Opgaverne/Wireshark_UDP_v8.0.pdf",
+    "Netværk/Exam/NetworkWireshark/Opgaverne/Wireshark_TCP_v8.0.pdf",
+    "Netværk/Exam/NetworkWireshark/Opgaverne/Wireshark_NAT_v8.0.pdf",
+    "Assets/To be sorted/scan0501.jpg",
+    "Assets/To be sorted/Pasted image 20240529170648.png",
+    "Assets/To be sorted/Pasted image 20240529165724.png",
+    "Assets/To be sorted/Pasted image 20240529165654.png",
+    "Assets/To be sorted/Pasted image 20240529165424.png",
+    "Assets/To be sorted/Pasted image 20240529165410.png",
+    "Assets/To be sorted/Pasted image 20240529165320.png",
+    "Assets/To be sorted/Pasted image 20240529163912.png",
+    "Assets/To be sorted/Pasted image 20240529163904.png",
+    "Assets/To be sorted/Pasted image 20240529163855.png",
+    "Untitled.canvas"
+  ]
+}
