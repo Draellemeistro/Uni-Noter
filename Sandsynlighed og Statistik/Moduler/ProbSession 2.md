@@ -9,8 +9,8 @@ browse through [3.1.1](https://www.probabilitycourse.com/chapter3/3_1_1_random_v
 - [[Probability Density Function (PDF)]]
 - [[Cumulative distribution function (CDF)]]
 - [[Expected Value and Variance]]
-- [[Jointly distributed random variables]]
-- [[Independent random variables]]
+- [[Jointly distributed random variabless]]
+- [[Sandsynlighed og Statistik/Independent random variables]]
 ## General overview of important shit
 ### Coinflip example
 

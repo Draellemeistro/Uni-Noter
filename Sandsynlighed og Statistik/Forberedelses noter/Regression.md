@@ -1,4 +1,12 @@
 [KILDE](https://github.com/agangster1/Sandsynlighed-og-statestik-formelsamling/blob/main/MM6_Regression.ipynb)
+
+# ToC
+- [[#Simple Linear regression|Simple Linear regression]]
+- [[#Least Squares Estimators|Least Squares Estimators]]
+	- [[#Least Squares Estimators#Least Square Regression|Least Square Regression]]
+	- [[#Least Squares Estimators#Finding the least squares estimates|Finding the least squares estimates]]
+		- [[#Finding the least squares estimates#example code-use|example code-use]]
+
 # Linear regression
 - data in the form $(X_{1},Y_{1}),\dots,(X_{n},Y_{n})$ 
 - assume their relation is linear

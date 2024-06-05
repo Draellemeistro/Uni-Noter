@@ -13,10 +13,10 @@ https://mszturc.github.io/obsidian-advanced-slides/getting-start/installation/
 - [[Practical Information]]
 - [[Probability alle slides]]
 ## moduler
-- [[Probability Theory 1 - Session 1]]
-- [[Probability Theory 2 - Session 2]]
-- [[Probability Theory 3 - Session 3]]
-- [[Probability Theory 4 - Session 4]]
+- [[ProbSession 1]]
+- [[ProbSession 2]]
+- [[ProbSession 3]]
+- [[ProbSession 4]]
 ## begreber
 
 # Netværk

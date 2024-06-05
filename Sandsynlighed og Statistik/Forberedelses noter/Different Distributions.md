@@ -14,14 +14,13 @@
 
 
 
-
 # Properties Discrete Distributions
 [KILDE](https://github.com/agangster1/Sandsynlighed-og-statestik-formelsamling/blob/main/mm_4Special%20Probability%20Distributions%20for%20Bernoulli%2C%20Binomial%2C%20Geometric%20and%20Poisson.ipynb)
 The mean value is sometimes called ==the first moment of $X$==. The n'th moment of $X$ is defined by: The expected value of $X$ to the power of $n$ using the probability mass function ([[Probability Mass Function (PMF)|PMF]]):
 $$E[X^n] = \sum_i x_i^n \cdot p(x_i)$$
 The expected value of $X$ to the power of $n$ using the probability density function ([[Probability Density Function (PDF)|PDF]]):
 $$E[X^n] = \int_{-\infty}^{\infty} x^n \cdot f(x) \, dx$$
-## [[Sandsynlighed og Statistik/Forberedelses noter/Distributions/Bernoulli rv]]
+## [[Bernoulli rv]]
 An experiment with 2 possible outcomes (*success* or *failure*) is called a **Bernoulli trial**. The indicator of event A is called the Bernoulli r.v. since it describes outcome of a Bernoulli trial.
 
 > [!NOTE] ELI5: Bernoulli
@@ -98,7 +97,7 @@ print(f"Var(X) = {variance:.4f}")
 # Var(X) = 2.1000
 ```
 
-#### **Computing the binomial distribution function**
+#### Computing the binomial distribution function
 - To optimize the computational process, we can utilize the following relationship between $P\{X=k+1\}$ and $P\{X=k\}$: $$P(X = k+1) = \frac{p}{1-p} \cdot \frac{n-k}{k+1} \cdot P(X = k)$$
 - Now starting from $P(X=0)$ we can recursively find all other $P(X=k)$
 ```python
@@ -212,7 +211,7 @@ print(f"Var(M) = {variance:.4f}")
 # Var(M) = 7.7778
 ```
 
-## **Hypergeometric** rv: see [[Geometric rv]]
+## Hypergeometric rv: see [[Geometric rv]]
 Suppose we have objects of ==two types==: type 1 N objects (acceptable components) and type 2 M objects (defective components). A sample of $n$ objects is randomly chosen without replacement. A r.v. $X$ represents a number of type 1 objects in the selection  hypergeometric with parameters ($N$, $M$, $n$) [[Probability Mass Function (PMF)]]:
 $$P(X = i) = \frac{{\binom{N}{i} \binom{M}{n-i}}}{{\binom{N+M}{n}}}$$
 Expectance and Variance:
@@ -261,11 +260,11 @@ print(f"Var(X) = {variance:.4f}")
 ## [[Poisson rv]]
 A r.v. taking on one of values 0, 1, 2, … is said to be a **Poisson** r.v. with parameter $λ$: (λ>0), if [[Probability Mass Function (PMF)]] is given by: $$P(X=i)=e^λ *\frac{λ^i}{i!}$$
 **Moment generating function:** $$E[e^{tX}] = e^{λ(e^t - 1)}$$
-Expectance and Variance:
+Expectation and Variance:
 - $E[X]=\lambda$
 - $Var(X)=\lambda$
 
-### Events that can be moddelled by Poisson distribution:
+### Events that can be moddelled by Poisson distribution
 Number of typos (misprints) on a page of a book Number of phone calls at a call center per minute Number of times a web server is accessed per minute Number of pine trees per unit area in a mized forest Number of stars in a given volume of space
 
 > [!NOTE] Poisson: What for?

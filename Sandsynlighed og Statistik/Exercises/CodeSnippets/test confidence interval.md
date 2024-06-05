@@ -1,7 +1,7 @@
 The average adult male height in a certain country is 170 cm. However, we suspect that the men in a certain city in that country might have a different average height due to some environmental factors. We pick a random sample of size 9 from the adult males in the city and obtain the following values for their heights (in cm):
 $$176.2, 157.9, 160.1, 180.9, 165.1, 167.2, 162.9, 155.7, 166.2$$
 Assume that the height distribution in this population is normally distributed.  
-Design a test (formulate hypothesis), and decide based on the observed data whether your suspicion is correct. Use significance level α = 0.05
+Design a test (formulate hypothesis), and decide based on the observed data whether your suspicion is correct. Use significance level $α = 0.05$
 
 ```python
 import numpy as np

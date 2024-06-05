@@ -3,7 +3,7 @@
 ##  estimate the sample mean ($\hat{\mu}$) based on the observed data.
 $$\hat{µ} = \frac{1}{n} \sum \limits _ {i=1} ^{n} X_{i} ~ N (µ, \frac{σ^2}{n})$$
 - $\hat{\mu}$ This represents the estimate of the population mean µ. The hat symbol (\hat{}) is often used to denote an estimate.
-- $X_i$ hese are the individual observations or values in the sample. The subscript "i" indicates the i-th observation.
+- $X_i$ These are the individual observations or values in the sample. The subscript "i" indicates the i-th observation.
 - n: This represents the size of the sample, or the number of observations.
 - $N(µ, σ^2/n)$ This represents the distribution of the sample mean. The sample mean is assumed to follow a normal distribution with mean µ and variance $\frac{\sigma^2}{n}$ 
 The equation also provides information about the distribution of the sample mean. It states that the sample mean follows a normal distribution with mean µ and variance σ^2/n. The variance of the sample mean decreases as the sample size increases, reflecting a more precise estimation of the population mean.

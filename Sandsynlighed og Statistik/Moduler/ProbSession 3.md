@@ -2,7 +2,7 @@
 ## Before:
 make a quiz. If you have troubles answering these questions, please revisit the material of the first two lecture sessions.
 
-### warm-up questions fra [[Probability Theory 2 - Session 2|session 2]]
+### warm-up questions fra [[ProbSession 2|session 2]]
 #### (a) If we know marginal pdfs of random variables X and Y , are we able to find their joint pdf? 
 - not necessarily (see Multiple r.v. in [[random variables]])
 #### (b) Let X be a continuous r.v. Calculate P (X = 100). 

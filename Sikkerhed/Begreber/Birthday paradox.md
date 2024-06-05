@@ -1,4 +1,4 @@
-relevant in regards to [[Set Operations]] in [[Probability Theory 1 - Session 1]]
+relevant in regards to [[Set Operations]] in [[ProbSession 1]]
 and [[the birthday attack]] in [[Theme 2]] of security
 
 Se youtube-videoen linket under forberedelsen til [[Theme 2]] i security: [Vsauce: The Birthday Paradox](https://www.youtube.com/watch?v=ofTb57aZHZs)

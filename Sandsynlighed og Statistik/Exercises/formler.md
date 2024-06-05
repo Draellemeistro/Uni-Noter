@@ -86,10 +86,10 @@ plt.show()
 
 # multiple RVs
 ## The linearity of expectation and sample mean
-#### Expectation formula:
+### Expectation formula:
 $$E(X+Y)=E[X]+E[Y]$$
 $$E[aX+Y]=aE[X]+b$$
-## The formula for the sample mean:
+### The formula for the sample mean:
 $$[ \bar{Z} = \frac{1}{n} \sum_{i=1}^{n} (X_i + Y_i)]$$
 WHERE
 - $\bar{Z}$ represents the sample mean of the combined random variables $(Z_i=X_i+Y_i)$

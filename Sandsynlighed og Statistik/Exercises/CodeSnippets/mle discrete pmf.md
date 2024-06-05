@@ -25,11 +25,10 @@ mle_theta = result.x[0]
 print("Maximum Likelihood Estimate of θ:", mle_theta)
 ```
 Consider an industrial scenario where two robots, labeled as R1 and R2 respectively, are carrying out some tasks in a manufacturing plant. Robot R1 needs to know how far R2 is in order to avoid collisions. To that end, R1 asks R2 to send a constant signal S during N time slots. The signal is transmitted in a wireless way, so R1 does not receive S but an attenuated version of S plus some noise terms wi at each time slot i (the attenuation does not affect the noise):  
-𝑦𝑖=𝛼𝑆+𝑤𝑖where α is the attenuation and the noise samples wi are independent and Gaussian distributed with zero mean and known variance σ^2;that is,  
-𝑤𝑖∼𝑁(0,𝜎2)
+$𝑦𝑖=𝛼𝑆+𝑤𝑖$ where $α$ is the attenuation and the noise samples $w$ and $i$ are independent and Gaussian distributed with zero mean and known variance $σ^2$;that is,  $𝑤𝑖∼𝑁(0,σ^2)$
 
-1. If R1 knows that the attenuation due to the distance d is given by𝛼=0.5/𝑑how can R1 estimate the distance d to R2?
-2. Given a sample(𝑦1,𝑦2,...,𝑦10)=(1.1,0.68,0.54,0.99,0.26,0.84,0.41,0.5,0.42,0.81)𝑆=5and𝜎2=0.1, what is the estimated distance between R1 and R2?
+1. If R1 knows that the attenuation due to the distance d is given by $𝛼=\frac{0.5}{d}$ how can R1 estimate the distance d to R2?
+2. Given a sample$(𝑦1,𝑦2,...,𝑦10)=(1.1,0.68,0.54,0.99,0.26,0.84,0.41,0.5,0.42,0.81)$, $𝑆=5$ and $𝜎^2=0.1$, what is the estimated distance between R1 and R2?
 
 ```python
 # Given variables

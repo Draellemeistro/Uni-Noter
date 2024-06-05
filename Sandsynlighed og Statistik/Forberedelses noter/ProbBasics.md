@@ -2,16 +2,73 @@
 
 kig på bunden af den her [KILDE2](https://github.com/agangster1/Sandsynlighed-og-statestik-formelsamling/blob/main/Gammelformler.ipynb)
 
-Variance: $$Var(X) = E[X^2]-E[X]^2$$
+- [[#Variance:|Variance:]]
+- [[#Standard deviation:|Standard deviation:]]
+- [[#Covariance is:|Covariance is:]]
+- [[#Correlation:|Correlation:]]
+- [[#Events|Events]]
+	- [[#Events#when all events are equally likely to happen:|when all events are equally likely to happen:]]
+	- [[#Events#any event E, the probability P(E) is non-negative:|any event E, the probability P(E) is non-negative:]]
+	- [[#Events#For any two disjoint events E and F, the probability of their union is the sum of their individual probabilities:|For any two disjoint events E and F, the probability of their union is the sum of their individual probabilities:]]
+- [[#Sampling|Sampling]]
+	- [[#Sampling#Sampling with or without replacement:|Sampling with or without replacement:]]
+	- [[#Sampling#Sampling without Replacement and with Ordering:|Sampling without Replacement and with Ordering:]]
+	- [[#Sampling#Sampling without Replacement and without Ordering:|Sampling without Replacement and without Ordering:]]
+	- [[#Sampling#Sampling with replacement and without ordering:|Sampling with replacement and without ordering:]]
+	- [[#Sampling#Bayes formula:|Bayes formula:]]
+- [[#[[Cumulative distribution function (CDF)]]:|[[Cumulative distribution function (CDF)]]:]]
+- [[#[[Probability Mass Function (PMF)]] for discrete R.V:|[[Probability Mass Function (PMF)]] for discrete R.V:]]
+- [[#[[Probability Density Function (PDF)]] continuous r.v:|[[Probability Density Function (PDF)]] continuous r.v:]]
+- [[#Mixed type:|Mixed type:]]
+- [[#multi rv Joint distribution functions|multi rv Joint distribution functions]]
+	- [[#multi rv Joint distribution functions#Multiple r.v joint CDF:|Multiple r.v joint CDF:]]
+	- [[#multi rv Joint distribution functions#Joint distributed discrete r.vs. [[joint PMF]]:|Joint distributed discrete r.vs. [[joint PMF]]:]]
+	- [[#multi rv Joint distribution functions#Jointly distributed continous r.vs.|Jointly distributed continous r.vs.]]
+	- [[#multi rv Joint distribution functions#independent r.v. You can split the formulas|independent r.v. You can split the formulas]]
+		- [[#independent r.v. You can split the formulas#CDF|CDF]]
+		- [[#independent r.v. You can split the formulas#PMF and PDF|PMF and PDF]]
+	- [[#multi rv Joint distribution functions#relationship between two random variables|relationship between two random variables]]
+- [[#[[Bernoulli rv]]|[[Bernoulli rv]]]]
+- [[#[[Binomial rv]]:|[[Binomial rv]]:]]
+- [[#[[Geometric rv]]:|[[Geometric rv]]:]]
+- [[#hypergeometric rv (see: [[Geometric rv]])|hypergeometric rv (see: [[Geometric rv]])]]
+- [[#[[Poisson rv]]|[[Poisson rv]]]]
+- [[#[[Uniform rv]]|[[Uniform rv]]]]
+		- [[#relationship between two random variables#[[Probability Density Function (PDF)]]|[[Probability Density Function (PDF)]]]]
+		- [[#relationship between two random variables#[[Cumulative distribution function (CDF)]]|[[Cumulative distribution function (CDF)]]]]
+- [[#[[Exponential rv]]|[[Exponential rv]]]]
+		- [[#relationship between two random variables#[[Probability Density Function (PDF)]]|[[Probability Density Function (PDF)]]]]
+		- [[#relationship between two random variables#[[Cumulative distribution function (CDF)]]|[[Cumulative distribution function (CDF)]]]]
+		- [[#relationship between two random variables#Reliability function: (The probability that X is greater than some number)|Reliability function: (The probability that X is greater than some number)]]
+		- [[#relationship between two random variables#Memoryless property:|Memoryless property:]]
+- [[#Poisson process:|Poisson process:]]
+- [[#Normal r.v. (Gaussian r.v.)|Normal r.v. (Gaussian r.v.)]]
+		- [[#relationship between two random variables#[[Probability Density Function (PDF)]]|[[Probability Density Function (PDF)]]]]
+	- [[#Normal r.v. (Gaussian r.v.)#Sample mean:|Sample mean:]]
+	- [[#Normal r.v. (Gaussian r.v.)#Sample variance:|Sample variance:]]
+	- [[#Normal r.v. (Gaussian r.v.)#Gaussian distribution:|Gaussian distribution:]]
+	- [[#Normal r.v. (Gaussian r.v.)#Standard normal distribution:|Standard normal distribution:]]
+	- [[#Normal r.v. (Gaussian r.v.)#The central limit theorem:|The central limit theorem:]]
 
-Standard deviation: $$Std(X) = sqrt(Var(X))$$
+# ToC
 
-Covariance is: $$Cov(X,Y)= E[(X-E[X])(Y-E[Y])]$$
-
-Correlation: $$Corr(X,Y)=\frac{Cov(X,Y)}{(sqrt(Var(X))*sqrt(Var(Y))})$$
 
 # general knowledge
-- when all events are equally likely to happen: $P(A)=\frac{|A|}{|S|}$
+## Variance: 
+$$Var(X) = E[X^2]-E[X]^2$$
+
+## Standard deviation: 
+$$Std(X) = \sqrt{ Var(X) }$$
+
+## Covariance is: 
+$$Cov(X,Y)= E[(X-E[X])(Y-E[Y])]$$
+
+## Correlation: 
+$$Corr(X,Y)=\frac{Cov(X,Y)}{(sqrt(Var(X))*sqrt(Var(Y)))}$$
+
+## Events
+### when all events are equally likely to happen: 
+$$P(A)=\frac{|A|}{|S|}$$
 ```python
 A = [1,2] # success events
 S = [1,2,3,4,5,6] # Sample space
@@ -19,11 +76,16 @@ propA = len(A)/len(S)
 print(propA)
 ```
 
-- or any event E, the probability P(E) is non-negative: $P(E) \geq 0$
+### any event E, the probability P(E) is non-negative: 
+$$P(E) \geq 0$$
 
-- For any two disjoint events E and F, the probability of their union is the sum of their individual probabilities: $P(E \cup F) = P(E) + P(F)$
 
-- Sampling with or without replacement: $Possibilities = n^k$
+### For any two disjoint events E and F, the probability of their union is the sum of their individual probabilities: 
+$$P(E \cup F) = P(E) + P(F)$$
+
+## Sampling
+### Sampling with or without replacement:
+ $$Possibilities = n^k$$
 ```python
 # we want to draw k samples from n values
 n = 6 
@@ -32,8 +94,8 @@ Possibilities = n ** k
 print(Possibilities)
 ```
 
-
-- Sampling without Replacement and with Ordering: $Possibilities = \frac{n!}{(n - k)!}$
+### Sampling without Replacement and with Ordering:
+$$\text{Possibilities} = \frac{n!}{(n - k)!}$$
 ```python
 import math
 # we want to draw k samples from n values
@@ -42,8 +104,8 @@ k = 6
 Possibilities = math.factorial(n) / math.factorial(n - k)
 print(Possibilities)
 ```
-
-- Sampling without Replacement and without Ordering: $Possibilities = {n\choose k} = \frac{n!}{(n-k)!*k!}$
+### Sampling without Replacement and without Ordering:
+$$Possibilities = {n\choose k} = \frac{n!}{(n-k)!*k!}$$
 ```python
 import math
 # we want to draw k samples from n values
@@ -53,7 +115,8 @@ Possibilities = math.factorial(n) / math.factorial(k) * (math.factorial(n - k))
 print(Possibilities)
 ```
 
-- Sampling with replacement and without ordering: $Possibilities = \frac{(n + k - 1)!}{k! * (n - 1)!}$
+### Sampling with replacement and without ordering:
+$$Possibilities = \frac{(n + k - 1)!}{k! * (n - 1)!}$$
 ```python
 import math
 # we want to draw k samples from n values
@@ -64,7 +127,8 @@ print(Possibilities)
 ```
 
 
-- Bayes formula: $P(A | B) = \frac{P(B | A) \cdot P(A)}{P(B)}$
+### Bayes formula: 
+$$P(A | B) = \frac{P(B | A) \cdot P(A)}{P(B)}$$
 ```python
 def bayes_formula(prob_a_sent, prob_b_sent, prob_a_sent_fail, prob_b_sent_fail):
     # Calculate the probability of A given evidence
@@ -105,7 +169,8 @@ print("Probability that A is received:", prob_a_received)
 print("Probability that B is received:", prob_b_received)
 ```
 
-- [[Cumulative distribution function (CDF)]]: $F(a) = \sum_{\text{all } x \leq a} P(x)$
+## [[Cumulative distribution function (CDF)]]: 
+$$F(a) = \sum_{\text{all } x \leq a} P(x)$$
 ```python
 import matplotlib.pyplot as plt
 
@@ -139,7 +204,8 @@ plt.grid(True)
 plt.show()
 ```
 
-- [[Probability Mass Function (PMF)]] for discrete R.V: $p(x) = P(X = x)$
+## [[Probability Mass Function (PMF)]] for discrete R.V: 
+$$p(x) = P(X = x)$$
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -186,7 +252,8 @@ print("Variance:", variance)
 ```
 
 
-- [[Probability Density Function (PDF)]] continuous r.v: $P(a \leq X < b) = \int_{a}^{b} f(x) dx$
+## [[Probability Density Function (PDF)]] continuous r.v: 
+$$P(a \leq X < b) = \int_{a}^{b} f(x) dx$$
 ```python
 import scipy.integrate as spi
 import numpy as np
@@ -221,7 +288,8 @@ plt.grid(True)
 plt.show()
 ```
 
-- Mixed type: $F(x) = p_1 * F_1(x) + p_2 * F_2(x) + ... + p_n * F_n(x)$
+## Mixed type: 
+$$F(x) = p_1 * F_1(x) + p_2 * F_2(x) + ... + p_n * F_n(x)$$
 ```python
 def cdf(x, probabilities, cdfs):
     # Calculate the cumulative distribution function (CDF)
@@ -239,8 +307,9 @@ x = 2.0  # Value at which to compute the CDF
 cdf_value = cdf(x, probabilities, cdfs)
 print("CDF:", cdf_value)
 ```
-
-- Multiple r.v joint CDF: $F(x, y) = P(X \leq x, Y \leq y)$
+## multi rv Joint distribution functions
+### Multiple r.v joint CDF: 
+$$F(x, y) = P(X \leq x, Y \leq y)$$
 ```python
 def joint_cdf(x, y, probabilities):
     # Calculate the joint cumulative distribution function (CDF) for two random variables
@@ -260,7 +329,8 @@ cdf_value = joint_cdf(x, y, probabilities)
 print("Joint CDF:", cdf_value)
 ```
 
-- Joint distributed discrete r.vs. [[joint PMF]]: $p(x_i, y_i) = P(X = x_i, Y = y_i)$
+### Joint distributed discrete r.vs. [[joint PMF]]: 
+$$p(x_i, y_i) = P(X = x_i, Y = y_i)$$
 ```python
 def joint_pmf(x, y, probabilities):
     # Calculate the joint probability mass function (PMF) for two random variables
@@ -280,7 +350,8 @@ pmf_value = joint_pmf(x, y, probabilities)
 print("Joint PMF:", pmf_value)
 ```
 
-- Jointly distributed continous r.vs. $P\{(X, Y) \in C\} = \int\int_{(x, y) \in C} f(x, y) \, dx \, dy$
+### Jointly distributed continous r.vs. 
+$$P\{(X, Y) \in C\} = \int\int_{(x, y) \in C} f(x, y) \, dx \, dy$$
 ```python
 import scipy.integrate as spi
 
@@ -301,16 +372,22 @@ probability = probability_in_region(region, joint_pdf_function)
 print("Probability:", probability)
 ```
 
-- If you are talking about independent r.v. You can split the formulas: [[Cumulative distribution function (CDF)]]: $F(A, B) = F_X(A) \cdot F_Y(B)$
+### independent r.v. You can split the formulas
+#### CDF
+If you are talking about independent r.v. You can split the formulas: [[Cumulative distribution function (CDF)]]: 
+$$F(A, B) = F_X(A) \cdot F_Y(B)$$
+#### PMF and PDF
+In terms of [[Probability Mass Function (PMF)]] for discrete random variables (rv) and [[Probability Density Function (PDF)]] for continuous random variables:
+$$p(x, y) = p_X(x) \cdot p_Y(y)$$
+$$f(x, y) = f_X(x) \cdot f_Y(y)$$
+ Basically, $X$ and $Y$ are independent if knowing the value of one does not change the distribution of another.
 
-- In terms of [[Probability Mass Function (PMF)]] for discrete random variables (rv) and [[Probability Density Function (PDF)]] for continuous random variables:
-	- $p(x, y) = p_X(x) \cdot p_Y(y)$
-	- $f(x, y) = f_X(x) \cdot f_Y(y)$
-	- Basically, $X$ and $Y$ are independent if knowing the value of one does not change the distribution of another.
-
-- The relationship between two random variables can often be clarified by consideration of the conditional distribution of one given the value of the other.
-	- The [[conditional PMF]] ([[probability mass function (PMF)|PMF]]) of $X$ given that $Y=y$ is defined by: $$p_{X|Y}(x|y) = P(X=x|Y=y) = \frac{P(X, Y)}{P_Y(y)}$$
-	- If $X$ and $Y$ have a [[joint PDF]] ([[probability density function (PDF)|PDF]]), then the [[conditional PDF]] ([[probability density function (PDF)|PDF]]) of $X$ given that Y=y is defined as: $$f_{X|Y}(x|y) = \frac{f(x, y)}{f_Y(y)}$$
+### relationship between two random variables
+The relationship between two random variables can often be clarified by consideration of the conditional distribution of one given the value of the other.
+The [[conditional PMF]] ([[probability mass function (PMF)|PMF]]) of $X$ given that $Y=y$ is defined by:
+$$p_{X|Y}(x|y) = P(X=x|Y=y) = \frac{P(X, Y)}{P_Y(y)}$$
+If $X$ and $Y$ have a [[joint PDF]] ([[probability density function (PDF)|PDF]]), then the [[conditional PDF]] ([[probability density function (PDF)|PDF]]) of $X$ given that Y=y is defined as: 
+$$f_{X|Y}(x|y) = \frac{f(x, y)}{f_Y(y)}$$
 
 
 # Types of variables:
@@ -346,7 +423,8 @@ $$E[X] = \frac{\beta + \alpha}{2}$$
 $$E[X^2] = \frac{\beta^3 + \alpha^3}{3(\beta + \alpha)}$$
 $$Var(X) = \frac{(\beta - \alpha)^2}{12}$$
 $$Var(X) = \frac{(\beta - \alpha)^2}{12}$$
-## [[Exponential rv]]
+## Exponential rv
+[[Exponential rv]]
 #### [[Probability Density Function (PDF)]]
 $$f(x)=f(x) = \lambda e^{-\lambda x},\text{ }x \geq 0$$
 #### [[Cumulative distribution function (CDF)]]
@@ -381,5 +459,5 @@ where $𝑥$ is a random variable and $𝑒$ is the base of the natural loga
 
 ### The central limit theorem:
 In words the sum of n i.i.d. random variables are approximately normally distributed with mean $$\mu_{n}=n\mu$$
-and variance $$\sigma_{n}2=n\sigma^2$$
+and variance $$\sigma_{n}^2=n\sigma^2$$
 
