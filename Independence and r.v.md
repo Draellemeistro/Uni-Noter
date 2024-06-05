@@ -4,13 +4,13 @@
 > $$P(X\in A, Y \in B)=P(X \in A)P(Y \in B)$$
 > 
 > **==Basically, X and Y are independent, if knowing the value of one does not change the distribution of another==**
-> - In terms of joint cumulative distribution function ([[joint CDF]]):
+> - In terms of joint cumulative distribution function ([[joint CDF 1]]):
 >   $F(a,b)=F_{X}(a)F_{Y}(b)$
 >      ,
->  - In terms of [[joint PMF]] (discrete r.v.)
+>  - In terms of [[joint PMF 1]] (discrete r.v.)
 >    $p(x,y)=p_{X}(x)p_{Y}(y)$
 >       ,
->   - in terms of [[joint PDF]] (continuous r.v.)
+>   - in terms of [[joint PDF 1]] (continuous r.v.)
 >     $f(x,y)=f_{X}(x)F_{Y}(y)$
 >    
 

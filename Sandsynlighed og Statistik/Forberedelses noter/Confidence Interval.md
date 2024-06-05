@@ -1,8 +1,39 @@
-[Kilde](https://github.com/agangster1/Sandsynlighed-og-statestik-formelsamling/blob/main/MM4_Hypothesis%20testing%201.ipynb)
+# [[Parameter Estimation]]
+A confidence interval is a range of values that is likely to contain the true population parameter with a certain level of confidence. In the case of the population mean, the equation you mentioned allows us to estimate the sample mean ($\hat{\mu}$) based on the observed data.
+$$\hat{µ} = \frac{1}{n} \sum \limits _ {i=1} ^{n} X_{i} ~ N (µ, \frac{σ^2}{n})$$
+- $\hat{\mu}$ This represents the estimate of the population mean µ. The hat symbol (\hat{}) is often used to denote an estimate.
+- $X_i$ hese are the individual observations or values in the sample. The subscript "i" indicates the i-th observation.
+- n: This represents the size of the sample, or the number of observations.
+- $N(µ, σ^2/n)$ This represents the distribution of the sample mean. The sample mean is assumed to follow a normal distribution with mean µ and variance $\frac{\sigma^2}{n}$ 
+The equation also provides information about the distribution of the sample mean. It states that the sample mean follows a normal distribution with mean µ and variance σ^2/n. The variance of the sample mean decreases as the sample size increases, reflecting a more precise estimation of the population mean.
 
-# Confidence Interval
+## The confidence interval is found as:
+$$\hat{µ} ± Z_{value} * (\frac {σ}{n})$$
+- $\hat{\mu}$ This represents the sample mean, which is an estimate of the population mean.
+- Z-value: This is the critical value from the standard normal distribution corresponding to the desired confidence level. It determines the width of the confidence interval.
+- σ: This is the population standard deviation, which is assumed to be known.
+- n: This represents the sample size, i.e., the number of observations in the sample.
+- This equation is applicable in situations where you have a known population standard deviation and want to estimate the population mean based on a sample. It is commonly used in statistical inference and hypothesis testing to make conclusions about the population mean using sample data.
+# z-score
+## 2-sided CI using z-score
 To find the two-sided confident interval using the z_score from a sample using this formular
 $$CI = \left(\text{{sample\_mean}} - \text{{z\_score}} \cdot \frac{{\text{{sigma}}}}{{\sqrt{n}}}, \text{{sample\_mean}} + \text{{z\_score}} \cdot \frac{{\text{{sigma}}}}{{\sqrt{n}}}\right)$$
+## 1-sided CI using z-score
+using that formula, to find 1-sided confidence interval using z-score
+$$CI lower boundery = \left(\text{{sample\_mean}} - \text{{z\_score}} \cdot \frac{{\text{{sigma}}}}{{\sqrt{n}}}\right)$$
+$$CI upper aboundery = \left(\text{{sample\_mean}} + \text{{z\_score}} \cdot \frac{{\text{{sigma}}}}{{\sqrt{n}}}\right)$$
+# T-score
+## CI using T-score with unknown variance
+Coin toss example, determining if the coin is a fair coin Rejection mean this is a type I error
+$$Threshold_{a}=t_{score}\frac{\sigma}{\sqrt{ n }}$$
+$$sample_{mean}=\frac{1}{n}\sum_{i=1}^n\{samples\}_{i}$$
+
+
+
+
+# Examples from [Kilde](https://github.com/agangster1/Sandsynlighed-og-statestik-formelsamling/blob/main/MM4_Hypothesis%20testing%201.ipynb)
+
+## Example 2-sided CI using z-score
 ```python
 import numpy as np
 import math
@@ -81,11 +112,7 @@ else:
     print("Therefore h0 is rejected")
 ```
 
-using that formula, to find 1-sided confidence interval using z-score
-$$CI lower boundery = \left(\text{{sample\_mean}} - \text{{z\_score}} \cdot \frac{{\text{{sigma}}}}{{\sqrt{n}}}\right)$$
-$$CI upper aboundery = \left(\text{{sample\_mean}} + \text{{z\_score}} \cdot \frac{{\text{{sigma}}}}{{\sqrt{n}}}\right)$$
-
-
+## Example 1-sided CI using z-score
 ```python
 import numpy as np
 import math
@@ -125,7 +152,7 @@ print("\n ----------------------------------------------- \n")
 print(f"With {conf_lvl_pro}% confidence, the interval is above {CIlower}.")
 ```
 
-Then preforming the h0 testing with one-sided confidence intervals
+### Then preforming the h0 testing with one-sided confidence intervals
 ```python
 import numpy as np
 import math
@@ -179,10 +206,8 @@ else:
     print("Therefore h0 is rejected")
 ```
 
-Coin toss example, determining if the coin is a fair coin Rejection mean this is a type I error
-$$Threshold_{a}=t_{score}\frac{\sigma}{\sqrt{ n }}$$
-$$sample_{mean}=\frac{1}{n}\sum_{i=1}^n\{samples\}_{i}$$
 
+## Example T-score and threshold coin toss (a [[Bernoulli rv]])
 
 ```python
 import random
@@ -235,8 +260,7 @@ if a > Test_result:
 else:
     print(f"Therefore h0 is rejected, given a sample mean of {sample_mean}")
 ```
-
-finding CI using T-score with unknown variance:
+## finding CI using T-score with unknown variance:
 ```python
 import numpy as np
 import math
@@ -276,7 +300,7 @@ print(f"With {(1-alpha)*100}% confidence, the interval is below {CIupper}.")
 print(f"With {(1-alpha)*100}% confidence, the interval is above {CIlower}.")
 print(f"With {(1-alpha)*100}% confidence, the interval is {CI}.")
 ```
-
+### What is this #StatsTODO
 
 ```python
 import numpy as np
@@ -313,10 +337,4 @@ CI = (sample_mean - t_score_two * sample_std / math.sqrt(n), sample_mean + t_sco
 print(f"With {(1-alpha)*100}% confidence, the interval is below {CIupper}.")
 print(f"With {(1-alpha)*100}% confidence, the interval is above {CIlower}.")
 print(f"With {(1-alpha)*100}% confidence, the interval is {CI}.")
-```
-
-
-
-```python
-
 ```

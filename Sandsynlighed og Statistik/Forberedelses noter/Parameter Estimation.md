@@ -1,19 +1,20 @@
 [KILDE](https://github.com/agangster1/Sandsynlighed-og-statestik-formelsamling/blob/main/MM2_Parameter%20Estimation.ipynb)
-
-A confidence interval is a range of values that is likely to contain the true population parameter with a certain level of confidence. In the case of the population mean, the equation you mentioned allows us to estimate the sample mean ($\hat{\mu}$) based on the observed data.
+# Sample mean
+##  estimate the sample mean ($\hat{\mu}$) based on the observed data.
 $$\hat{µ} = \frac{1}{n} \sum \limits _ {i=1} ^{n} X_{i} ~ N (µ, \frac{σ^2}{n})$$
 - $\hat{\mu}$ This represents the estimate of the population mean µ. The hat symbol (\hat{}) is often used to denote an estimate.
 - $X_i$ hese are the individual observations or values in the sample. The subscript "i" indicates the i-th observation.
 - n: This represents the size of the sample, or the number of observations.
 - $N(µ, σ^2/n)$ This represents the distribution of the sample mean. The sample mean is assumed to follow a normal distribution with mean µ and variance $\frac{\sigma^2}{n}$ 
 The equation also provides information about the distribution of the sample mean. It states that the sample mean follows a normal distribution with mean µ and variance σ^2/n. The variance of the sample mean decreases as the sample size increases, reflecting a more precise estimation of the population mean.
-
-**The confidence interval is found as:** $$\hat{µ} ± Z_{value} * (\frac {σ}{n})$$
+### **The confidence interval is found as:** 
+$$\hat{µ} ± Z_{value} * (\frac {σ}{n})$$
 - $\hat{\mu}$ This represents the sample mean, which is an estimate of the population mean.
 - Z-value: This is the critical value from the standard normal distribution corresponding to the desired confidence level. It determines the width of the confidence interval.
 - σ: This is the population standard deviation, which is assumed to be known.
 - n: This represents the sample size, i.e., the number of observations in the sample.
 - This equation is applicable in situations where you have a known population standard deviation and want to estimate the population mean based on a sample. It is commonly used in statistical inference and hypothesis testing to make conclusions about the population mean using sample data.
+#### example code
 ```python
 import scipy.stats as stats
 import math
@@ -51,11 +52,13 @@ print(f"Confidence Interval ({confidence_level * 100}%): ({lower}, {upper})")
 # Confidence Interval (95.0%): (0.2799392215763126, 0.9200607784236874)
 ```
 
-The conservative approach or approach 1: Uses the mathematical upper boundary for σ to estimate confidence interval (CI) for a population proportion using the sample proportion as: $$C_{1-a} = (\hat{p_{n}} - \frac{Z_{a/2}}{2\sqrt{n}}, \hat{p_{n}} + \frac{Z_{a/2}}{2\sqrt{n}})$$
+## The conservative approach or approach 1: 
+Uses the mathematical upper boundary for $σ$ to estimate confidence interval (CI) for a population proportion using the sample proportion as: $$C_{1-a} = (\hat{p_{n}} - \frac{Z_{a/2}}{2\sqrt{n}}, \hat{p_{n}} + \frac{Z_{a/2}}{2\sqrt{n}})$$
 - $C_{1-\alpha}$ This represents the confidence interval for the population proportion.
 - $\hat{p}_{n}$ This is the sample proportion, which is an estimate of the population proportion.
 - $Z_{\alpha/2}$ This is the critical value from the standard normal distribution corresponding to the desired level of confidence. It determines the width of the confidence interval.
 - n: This represents the sample size, i.e., the number of observations in the sample.
+### Code example 
 ```python
 import scipy.stats as stats
 import math
@@ -88,8 +91,9 @@ lower, upper = calculate_confidence_interval(data, confidence_level)
 print(f"Confidence Interval ({confidence_level * 100}%): ({lower}, {upper})")
 # Confidence Interval (95.0%): (0.4481818425742008, 0.7518181574257992)
 ```
+### Finding sample size from confidence intervals - using approach 1:
 
-**Finding sample size from confidence intervals - using approach 1:**
+#### Code example
 ```python
 import math
 
@@ -107,15 +111,22 @@ n = math.ceil(((z_critical ** 2) * (0.25)) / ((desired_interval_width / 2) ** 2)
 
 n
 ```
+
+## approach 2
+
+> [!NOTE] Title
+>  **approximation for the sample mean, $\hat{p}_{n}$ from [[Most likely Estimator (MLE)|MLE]] for [[Bernoulli rv]]**
  The approximation for the sample mean, $\hat{p}_{n}$ from MLE for Bernoulli RVs (random variables) is: $$\hat{p}_{n} = \bar X_{n} = \frac{1}{n} \sum \limits _ {i=1} ^{n} X_{i}$$
  This can be used to estimate the confidence interval (CI) for a population proportion (approach 2):
- $$C_{1-a} = \hat{p}_{n} - Z_{a/2} \sqrt{\frac{\bar X_{n}(1 - \bar X_{n})}{n}}, \hat{p}_{n} + Z_{a/2} \sqrt{\frac{\bar X_{n}(1 - \bar X_{n})}{n}}$$
+
+  $$C_{1-a} = \hat{p}_{n} - Z_{a/2} \sqrt{\frac{\bar X_{n}(1 - \bar X_{n})}{n}}, \hat{p}_{n} + Z_{a/2} \sqrt{\frac{\bar X_{n}(1 - \bar X_{n})}{n}}$$
  - $C_{1-\alpha}$ This represents the confidence interval for the population proportion.
 - $\hat{p}_{n}$ This is the sample proportion, which is an estimate of the population proportion.
 - $Z_{\alpha/2}$ This is the critical value from the standard normal distribution corresponding to the desired level of confidence. It determines the width of the confidence interval.
 - $\bar{X}_{n}$ This is the sample mean, which is an estimate of the population mean. 
 - This equation is applicable in situations where you have a sample proportion and sample mean, and you want to estimate the population proportion based on a sample. It is commonly used in survey research, quality control, and hypothesis testing to estimate proportions and make inferences about the population proportion.
 **==This is only valid for Bernoulli RVs==**
+### Code example
 ```python
 import scipy.stats as stats
 import numpy as np
@@ -140,7 +151,7 @@ upper_bound = p_hat + z_critical * std_error
 
 (lower_bound, upper_bound)
 ```
-Finding sample size from confidence intervals - using approach 2:
+#### Finding sample size from confidence intervals - using approach 2:
 ```python
 import scipy.stats as stats
 
@@ -166,15 +177,21 @@ n
 ```
 
 
+# Sample variance
 General approximation of the sample variance:
 $$\hat{\sigma}_n^2 = S_n^2 = \frac{1}{n-1} \sum \limits _ {i=1} ^{n} (X_{i} - \bar{X_n})^2 = \frac{1}{n-1} \sum \limits _ {i=1} ^{n} X_{i}^2 - n \bar{X_n}^2$$
 General approximation of confidence interval:
 $$C_{1-a} = (\hat{p}_{n} - Z_{a/2} \frac{\hat{\sigma}_n}{\sqrt{n}}, \hat{p}_{n} + Z_{a/2} \frac{\hat{\sigma}_n}{\sqrt{n}}) = (\hat{p}_{n} - Z_{a/2} \frac{S_n}{\sqrt{n}}, \hat{p}_{n} + Z_{a/2} \frac{S_n}{\sqrt{n}})$$
-This applies to all kinds of distrubutions and variables.
-Problem with small sample sizes = no good estimate for the variance
-Solution: Calculate the confidence interval using the t-distrubtion:
+This applies to all kinds of distributions and variables.
+
+
+> [!NOTE] Title
+> Problem with small sample sizes = no good estimate for the variance
+Solution: Calculate the confidence interval using the t-distribution like below:
+
 $$C_{1-a} = (\hat{\mu}_n - T_{\frac{\alpha}{2}, n-1} \frac{\hat{\sigma}_n}{\sqrt{n}}, \hat{\mu}_n + T_{\frac{\alpha}{2}, n-1} \frac{\hat{\sigma}_n}{\sqrt{n}})$$
-where $T_{\frac{\alpha}{2}, n-1}$ = t_critical is found as:
+
+where $T_{\frac{\alpha}{2}, n-1}=\text{t\_critical}$ is found as:
 ```python
 import scipy.stats as stats
 
@@ -186,6 +203,7 @@ t_critical = stats.t.ppf(1 - alpha/2, n - 1)
 t_critical
 ```
 
+##  Finding confidence interval
 Now we can find the confidence interval using:
 ```python
 import scipy.stats as stats
@@ -213,6 +231,7 @@ upper_bound = mean + margin_of_error
 (lower_bound, upper_bound)
 ```
 
+## finding Sample size
 Finding sample size from confidence intervals - using t_critical:
 ```python
 import scipy.stats as stats
@@ -241,7 +260,8 @@ n = int(round(n))
 n
 ```
 
-HUUUUUUUUUUGE MOTHERFUCKER
+# Big ol' example 
+
 ```python
 import numpy as np
 import math

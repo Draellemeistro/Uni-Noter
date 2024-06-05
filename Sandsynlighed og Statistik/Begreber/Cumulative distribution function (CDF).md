@@ -1,4 +1,4 @@
-**==FOR MULTIPLE R.V.'s IN RELATION TO EACHOTHER SEE:==   [[joint CDF]]**
+**==FOR MULTIPLE R.V.'s IN RELATION TO EACHOTHER SEE:==   [[joint CDF 1]]**
 
 > [!NOTE] Definition
 > The **CDF** of a r.v. X is defined for any real number x as the probability of the event $\{X\leq x\}$ $$F_{X}(x)=P(X\leq x)=P(X \in (-\infty,x])$$
@@ -15,7 +15,7 @@
 > ==!!!!!!== **[[Probability Mass Function (PMF)|PMF]] ---> CDF** ==!!!!!!==
 >  ![[Pasted image 20240602152922.png]]
 >  ![[Pasted image 20240602152933.png]]
->  see [[Bernoulli rv]] for coin-flip example
+>  see [[Sandsynlighed og Statistik/Forberedelses noter/Distributions/Bernoulli rv]] for coin-flip example
 
 
 

@@ -38,7 +38,7 @@ In essence, a random variable is a real-valued function that assigns a numerical
 > 
 
 
-[[Multiple random variables]]
+[[Sandsynlighed og Statistik/Forberedelses noter/Multiple random variables]]
 
 ### Independent r.v. [[Independence and r.v]]
 ![[Pasted image 20240218161504.png]] 
