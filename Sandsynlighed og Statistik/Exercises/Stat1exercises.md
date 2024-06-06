@@ -270,7 +270,7 @@ $$P(X\geq 40)$$
 *p* is prob of win in a single game**
 $$\text{PMF: }P(X=k)={n\choose k}p^k(1-p)^{{n-k}}$$
 **The CDF gives the prob. of getting *k* or fewer wins:** $$P(X\leq k)=\sum_{i=0}^k{n\choose i}p^i(1-p)^{n-i}$$
-**To find $P(X\geq 40)$** the complementary probability can be used: $$P(X\geq 40)=1-P(X\leq 40)=1-P(X\leq 39)$$
+**To find $P(X\geq 40)$** the complementary probability can be used: $$P(X\geq 40)=1-P(X< 40)=1-P(X\leq 39)$$
 ==**this means:** find $P(X\leq 39)$ and subtract it from 1==
 Since $X_A$ and $X_B$ are independent, we should be able calculate them seperately: 
 ==!!!!! **PROBLEM: there are not enough games for either of the classes** !!!!!!!!==
@@ -283,7 +283,7 @@ We asssume that the distr. of $X_A$ and $X_B$ can be  approximated by normal dis
 $N_{A}\sim N(n_{A}p_{A},n_{A}p_{A}(1-p_{A}))$ and $N_{B}\sim N(n_{B}p_{B},n_{B}p_{B}(1-p_{B}))$
 the sum of them can be approximated: $X\sim N(\mu_{X},\sigma^2_{X})$ were $\mu_{X}=n_{A}p_{A}+n_{B}p_{B}$  and $\sigma^2_{X}=n_{A}p_{A}(1-p_{A})+n_{B}p_{B}(1-p_{B})$
 
-with these, we approximate: $$P(X\geq 40)=11-\frac{1}{2}\left[ 1+erf\left( \frac{{40-\mu_{X}}}{\sigma_{X}\sqrt{ 2 }} \right) \right]=0.1187$$
+with these, we approximate: $$P(X\geq 40)=1-\frac{1}{2}\left[ 1+erf\left( \frac{{40-\mu_{X}}}{\sigma_{X}\sqrt{ 2 }} \right) \right]=0.1187$$
 
 ```python
 # Parameters  
@@ -319,7 +319,7 @@ print("Probability of achieving 40 or more wins:", prob_40_or_more)
 
 ![[Statistics2024-Exercises1 (1).pdf]]
 ## Solution
-![[Solution-Statistics2024-Session1 (1).pdf]]
+![[stats1solutions.pdf]]
 
 # Quiz
 ![[Statistics2024-Quiz1.pdf]]

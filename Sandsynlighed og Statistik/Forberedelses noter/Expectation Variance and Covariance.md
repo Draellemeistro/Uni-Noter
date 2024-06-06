@@ -132,6 +132,15 @@ print("Var(X) =", result)
 - $E(Y)$: This denotes the expected value or mean of the random variable $Y$.
 - $(X - E(X))(Y - E(Y))$: This term represents the product of the differences between each individual value of $X$ and its expected value, and each individual value of $Y$ and its expected value. This step captures how the two variables deviate from their respective means simultaneously.
 - **==The covariance is a measure of the linear relationship between two random variables.==**
+
+#### Properties of Covariance
+- $Cov(X,Y)=Cov(Y,X)$
+- $Cov(X,X)=Var(X)$
+- $Cov(aX,Y)=aCov(X,Y)$
+- if $X$ and $Y$ are independent, $Cov(X,Y)=0$
+- $Var(X+Y)=Var(X)+Var(Y)+2Cov(X,Y)$
+	- thus, $Var(X+Y)=Var(X)+Var(Y)$ only in case of independence
+### Code Covariance
 ```python
 # To calculate the covariance, you take the expected value of the product of the deviations between X and its mean and Y and its mean:
 
