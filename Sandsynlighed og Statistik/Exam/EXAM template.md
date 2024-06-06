@@ -1,4 +1,4 @@
-# Problem P1
+	# Problem P1
 On average **Peter receives 125 emails per day**. Out of these 125 emails, **25 emails are spam**. A special software is used that allows to automatically filter the spam emails and put them in a special Spam folder. Specification of this software states that the detection rate of spam is **98%** and the **probability of a false positive is 7%**. Peter never checks the messages in Spam folder. What are the c**hances that he overlooks an important message** ( in other words, what is the probability that **an email that is classified as a spam and put in Spam folder is in fact not a spam**)?
 **Note that a false positive in this case is a situation when a non-spam email is marked as spam. A false positive refers to a situation when a spam email is not marked as spam.**
 
@@ -64,11 +64,11 @@ $$\frac{1}{2}+\frac{1}{4}+\frac{1}{4}=1$$
 
 
 
-| X\Y | 0   | 1   |     |
-| --- | --- | --- | --- |
-| 0   | 1/2 | 1/4 | 3/4 |
-| 1   | 1/4 | 0   | 1/4 |
-|     | 3/4 | 1/4 |     |
+| X\Y       | 0   | 1   |     |
+| --------- | --- | --- | --- |
+| **0**     | 1/2 | 1/4 | 3/4 |
+|  **1**    | 1/4 | 0   | 1/4 |
+|           | 3/4 | 1/4 |     |
 
 ### (C) Is X a discrete or continuous random variable? Does a distribution for X has a special name or it is a ”no-name” distribution?
 X is discrete and a Bernoulli r.v
@@ -123,9 +123,9 @@ MEAN : 52.875
 VAR : 31.2678
 
 ### 2) Assuming that the number of earthquakes per year shown in Table I is normally distributed, obtain the 95% confidence interval for the mean number of earthquakes per year.
-$C_{0.95}=(\hat{\mu}_{n}-Z_{\frac{\alpha}{2}}\frac{\sigma}{\sqrt{ n }},\hat{\mu}_{n}+Z_{\frac{\alpha}{2}}\frac{\sigma}{\sqrt{ n }})$
-$=(\hat{\mu}_{n}-1.96\frac{\sigma}{\sqrt{ n }},\hat{\mu}_{n}+1.96\frac{\sigma}{\sqrt{ n }})$
-$$
+$$C_{0.95}=(\hat{\mu}_{n}-Z_{\frac{\alpha}{2}}\frac{\sigma}{\sqrt{ n }},\hat{\mu}_{n}+Z_{\frac{\alpha}{2}}\frac{\sigma}{\sqrt{ n }})$$
+$$=(\hat{\mu}_{n}-1.96\frac{\sigma}{\sqrt{ n }},\hat{\mu}_{n}+1.96\frac{\sigma}{\sqrt{ n }})$$
+
 ### 3) You read in a newspaper that the average number of significant earthquakes per year is “60 or more.” Is this claim supported by the values in Table I with 95% confidence? Provide the means to support this conclusion.
 
 

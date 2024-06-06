@@ -34,8 +34,6 @@ plt.title('Normalized Histogram of Latency')
 plt.xlabel('Latency [ms]')  
 plt.ylabel('time[s]')  
 plt.show()
-
-
 ```
 ![[Pasted image 20240603162034.png]]
 
