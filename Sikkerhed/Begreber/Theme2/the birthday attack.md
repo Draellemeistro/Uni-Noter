@@ -1,4 +1,4 @@
-When you make a password, that password is [[Hashing|Hashed]] into a Digest or hash value. when the md5 hashing algorithm was widely used, its 128-bit 32 hexadecimal hashes were vulnerable to hacking based on the [[Birthday paradox]]. 
+When you make a password, that password is [[Hashing Overview|Hashed]] into a Digest or hash value. when the md5 hashing algorithm was widely used, its 128-bit 32 hexadecimal hashes were vulnerable to hacking based on the [[Birthday paradox]]. 
 The idea was to find a [[Collision]] where two hashes has the same value regardless of input, and therefore learn how it works.
 The $3.4 * 10^{38}$ possible outcomes of md5 was cracked used an algorithm based on the math of probabilities displayed in the [[Birthday paradox]] 
 

@@ -17,7 +17,7 @@
 - please install kali linux in a virtual machine
 - please watch videos
 ## Begreber 
- - [[Hashing]]
+ - [[Hashing Overview]]
 	 - [[SHA (Security Hash Algorithm)]]
 	 - [[MD (Message Digest)]]
  - [[Birthday paradox]]

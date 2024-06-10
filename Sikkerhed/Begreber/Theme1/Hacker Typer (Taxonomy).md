@@ -6,7 +6,7 @@
 
 ![[Pasted image 20240206100255.png]]
 - [[insiders]]
-- [[Cyber criminals]]
+- [[Cyber criminals (Professionals)]]
 - [[Script kiddies]]
 - [[Gray hats]]
 - [[Hacktivists]]

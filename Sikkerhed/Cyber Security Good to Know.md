@@ -1,0 +1,11 @@
+- [SANS Institute events](https://www.sans.org/mlp/free-cybersecurity-events/)
+- [Cyber million program](https://www.immersivelabs.com/cybermillion/)
+- [Center for Cyber Security](https://www.cfcs.dk/en/cybertruslen/threat-assessments/)
+- [The CSIRT blog](https://www.csirtblog.com/)
+- [Darknet Diaries by Jack Rhysider](https://darknetdiaries.com/)
+- [Bundle of useful trainings](https://women4cyber.dk/wp-content/uploads/2023/10/Learning-platforms.pdf)
+- [ENISA: best practices for cyber crisis management](https://www.enisa.europa.eu/publications/best-practices-for-cyber-crisis-management)
+- [OWASP CPH chapter](https://www.linkedin.com/company/owaspcopenhagenchapter/?originalSubdomain=dk)
+- [CPH CitySec](https://www.linkedin.com/company/kbhsec/)
+- [Women4Cyber DK](https://women4cyber.dk/)
+- 

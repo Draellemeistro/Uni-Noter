@@ -1,5 +1,5 @@
 [Security theme 2 video](https://www.youtube.com/watch?v=--tnZMuoK3E)
- [[Hashing]] , also referred to as **one-way [[encryption]]** which is useful for storing passwords. You can store the hashed password, and when people log in, compare the hash value of their inputted password to the one stored in the database. Checks out? welcome!
+ [[Hashing Overview]] , also referred to as **one-way [[encryption]]** which is useful for storing passwords. You can store the hashed password, and when people log in, compare the hash value of their inputted password to the one stored in the database. Checks out? welcome!
 
 Hvis databasen er blevet tilgået af uønskede individer, vil de have adgang til Digest/ hash-værdierne af passwords, som i teorien bør være ubrugelige for dem.
 
