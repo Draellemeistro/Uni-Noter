@@ -18,6 +18,8 @@
 - please watch videos
 ## Begreber 
  - [[Hashing]]
+	 - [[SHA (Security Hash Algorithm)]]
+	 - [[MD (Message Digest)]]
  - [[Birthday paradox]]
  - [[Password hashing]]
  - [[Passwords]]

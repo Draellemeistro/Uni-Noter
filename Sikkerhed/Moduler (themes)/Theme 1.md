@@ -42,7 +42,7 @@
 ### [[Common Attacks]]
 [[Malware]]
 [[Denial of Service (DoS)]]
-[[Man-ln-The-Middle (MlTM)]]
+[[Man-ln-The-Middle (MITM)]]
 [[Phishing]]
 [[Ramsomware]]
 [[Information theft]]

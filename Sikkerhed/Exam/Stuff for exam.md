@@ -1,4 +1,9 @@
 
+
+> [!bug] SAMMENLIGN MED YAMMASTEREN'S NOTER
+> YAM-MASTER'S NOTER HER: [[ExamExpectationsSecurity]]
+
+
 > [!quote] Extra info
 > We can go in and just talk. Assignments makes you prepared for examples. Helps focus on key areas
 > (???) picture meaning -> in more detail (???)

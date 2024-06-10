@@ -1,0 +1,5 @@
+- T**o capture and test Wi-Fi** we can use a tool suite called aircrack-ng.
+- ==Aircrack allows us to:==
+	- Monitor and capture raw 802.11 frames
+	- Craft and send custom frames
+	- Crack all the before mentioned security schemes and recover the password!

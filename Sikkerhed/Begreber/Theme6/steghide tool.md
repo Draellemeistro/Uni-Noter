@@ -1,0 +1,4 @@
+```shell
+apt install steghide
+```
+

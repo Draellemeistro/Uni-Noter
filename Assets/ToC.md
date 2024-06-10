@@ -45,7 +45,7 @@ https://mszturc.github.io/obsidian-advanced-slides/getting-start/installation/
 - [[Theme 7]]
 - [[Theme 8]]
 - [[Theme 9]]
-- [[Theme 10]]
+- [[Theme 10 Incident response]]
 ## begreber
 
 

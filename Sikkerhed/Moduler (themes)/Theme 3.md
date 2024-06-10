@@ -44,7 +44,7 @@ watch:
 
 # Slides
 ## Terminology
-###  [[Encryption]] 
+###  [[encryption]] 
 - **Plaintext**: original message
 - **Ciphertext**: coded message
 - **Cipher**: algorithm for transforming plaintext to ciphertext

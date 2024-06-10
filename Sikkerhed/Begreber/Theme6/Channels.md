@@ -1,0 +1,4 @@
+- **Channel**: path used to transfer data
+- **Overt Channel**: medium designed for data transfer
+- **[[Covert channel]]**: “*A communication channel not designed for any kind of information transfer*” (Lampson, 1973)
+- **[[Side channels]]**
