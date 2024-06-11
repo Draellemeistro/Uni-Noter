@@ -1,4 +1,4 @@
-framework for encryption algorithms. structure where you add encryption rounds and sheit.
+framework for [[encryption]] algorithms. structure where you add [[encryption]] rounds and sheit.
 
 > [!NOTE] Video
 > [Forklaring af Feistel Ciphers](https://www.youtube.com/watch?v=FGhj3CGxl8I)

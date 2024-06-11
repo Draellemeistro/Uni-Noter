@@ -1,9 +1,10 @@
-More details about nmap **[here](https://nmap.org/book/man-briefoptions.html)**
-
+More details about nmap **[here](https://nmap.org/book/man-briefoptions.html)** se også den [her](https://www.comparitech.com/net-admin/the-definitive-guide-to-nmap/)
+![[Pasted image 20240611165823.png]]
 
 > [!NOTE]
 > **Use [[zenmap]] if you prefer the GUI**
 
+![[Pasted image 20240611170028.png]]
 ## Nmap and UDP Scanning
 Nmap will need sudo privileges to run a UDP scan to send custom packets.
 ```

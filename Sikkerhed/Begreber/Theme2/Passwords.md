@@ -15,7 +15,7 @@
 - It means using automated software that systematically checks all possible passwords until the correct one is found.
 - It’s trial-and-error process in which the hacker computes the hash of each word in a dictionary or a word list and then compares the resulting hash to the hash of the password.
 ### 2. Rainbow tables
-- These are precomputed tables used for reversing cryptographic hash functions, usually used for cracking password hashes.
+- These are precomputed tables used for reversing cryptographic [[hash functions]], usually used for cracking password hashes.
 - The hacker has the hash of the password she wants to crack and searches for that hash in the list of precomputed hashes of the rainbow table.
 
 ### Cracking Passwords Countermeasures
@@ -25,7 +25,7 @@ in essence, make it as much a nuisance as possible. If you're more difficult to 
 - **Do not use dictionary words** including combinations of these words no matter the language.
 - **Do not store passwords unencrypted** like for example in word files. Do not write them down!
 - **Do not reuse your passwords**! Use a unique password for each website or service
-- Additionally, **setup 2-way authentication** for important websites like your bank, paypal or even Google or Facebook accounts
+- Additionally, **setup 2-way [[authentication]]** for important websites like your bank, paypal or even Google or Facebook accounts
 ## Hands-on and examples in Linux:
 ### /etc/passwd vs /etc/shadow: both Can be used to crack the password.
 #### **/etc/passwd**: all valid user accounts

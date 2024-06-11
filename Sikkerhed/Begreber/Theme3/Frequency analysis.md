@@ -56,5 +56,5 @@ Replace the characters to find the plaintext:
 **==Example==**: tr ntyhqu EHTRSN < **ciphertext.txt**
  
 > [!NOTE] filer
-> Ligger på Moodle under Theme 3: encryption ([link til scripts](https://www.moodle.aau.dk/mod/resource/view.php?id=1713387))
+> Ligger på Moodle under Theme 3: [[encryption]] ([link til scripts](https://www.moodle.aau.dk/mod/resource/view.php?id=1713387))
 

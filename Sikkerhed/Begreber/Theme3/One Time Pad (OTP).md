@@ -7,7 +7,7 @@
 
 
 > [!NOTE] Important note:
-> **One-time pads** or **one-time encryption** is **==NOT==** to be confused with [[one-time keys (OTK)]] or [[one-time passwords (OTP)]].
+> **One-time pads** or **one-time [[encryption]]** is **==NOT==** to be confused with [[one-time keys (OTK)]] or [[one-time passwords (OTP)]].
 
 - The weak point of the *XOR* operation is that ***XOR* is its own inverse**: **A** ⊕ **B** ⊕ **A** = **B**.
 - When you know the part of the plaintext message M for the corresponding encrypted message C, you immediately obtain that part of the key as K = M ⊕ C.

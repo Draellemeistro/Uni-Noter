@@ -9,7 +9,7 @@
 ### Topics, Terms etc
 - [[Understand the attack and the consequences]]
 - [[Adversaries enemies]]
-- [[CIA triad]]
+- [[CIA triad or triage]]
 - [[Sikkerhed/Begreber/Theme1/Common Attacks]]
 - [[Cyber Kill Chain]]
 - [[Cybersecurity in fairytale]]
@@ -55,6 +55,7 @@
 ### Summary 
 
 ### Topics, Terms etc
+[[Crypto Terminology]]
 [[Triple DES (3DES)]]
 [[Assymmetric Encryption aka public Key Encryption]]
 [[attacks against encryption systems]]

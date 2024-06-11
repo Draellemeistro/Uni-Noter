@@ -16,7 +16,7 @@
 > - It is the **typical password authentication**.
 > - However, to send this password, we need to make sure that the **communication channel is secured**.
 > 	- To send the secret password, we need a **channel to be encrypted**.
-> 	- It requires another secret, the encryption key to encrypt that session.
+> 	- It requires another secret, the [[encryption]] key to encrypt that session.
 > 
 > ![[Pasted image 20240608140710.png]]
 
@@ -37,7 +37,7 @@
 - Given a message **M**, **Alice** computes $MAC=H(K || M)$, where **M'** is the received messaged
 - **Alice** sends both **M** and **MAC** to **Bob**
 - **Bob** $MAC'=H(K||M')$, where **M'** is the received message
-- **Bob** checks **MAC** and **MAC'**: if same, then data integrity, else attack detected.
+- **Bob** checks **[[MAC]]** and **MAC'**: if same, then data integrity, else attack detected.
 ![[Pasted image 20240608140511.png]]
 ![[Pasted image 20240608140526.png]]
 

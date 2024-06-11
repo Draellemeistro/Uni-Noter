@@ -1,14 +1,14 @@
-- One of the simplest encryption techniques
+- One of the simplest [[encryption]] techniques
 - **Substitution cipher**: each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet
 ## Example:
 Caesar cipher using a right rotation of three places ==Deciphering== is done in reverse, with a **left shift of 3**.
 
-- Encryption and Decryption of a plaintext letter p, substitute the cipher text letter c by a shift k:
+- [[Encryption]] and Decryption of a plaintext letter p, substitute the cipher text letter c by a shift k:
 	$E_n(p) = (p+k)mod26$
 	$D_n(c)=(c-k)mod26$
 	Where A → 0, B → 1, ..., Z → 25 and 1$\leq$ k $\leq$ 25
 - The algorithm is not secret → ==The key is secret==
-- Easy to guess using ”**frequency analysis**”
+- Easy to guess using ”**[[frequency analysis]]**”
 #### CaesarCipher.py
 ```python
 def caesar_encrypt(plaintext, shift):
@@ -80,11 +80,11 @@ Decrypt the message “**Aopz pz hu lujyfwalk zaypun!**” using ROT13
 ### [[Frequency analysis]] in English language
 ![[Pasted image 20240220124946.png]]
 ![[statSLET.png]]
-If you have the frequency analysis on the ciphertext, you can guess what combination in the ciphertext mapped to the origin text.
+If you have the [[frequency analysis]] on the ciphertext, you can guess what combination in the ciphertext mapped to the origin text.
 - Think about the frequencies of letters in [[Frequency analysis|English]]: **E T A O I N S** are the most frequently used letters
 - Some short words area frequent and easy to recognize: **a, I, to, on, the**... etc
 - Use this knowledge to progressively figure out the key
-### Let’s try Frequency analysis (Independent work)
+### Let’s try [[Frequency analysis]] (Independent work)
 - Ciphertext file: **ciphertext.txt**
 - Calculate frequency: python **frequency.py**
 Replace the characters to find the plaintext:

@@ -4,7 +4,7 @@
 - Decryption $m_i=D(c_i,k)⊕c_{i-1}$
 - Initialitation vector $c_0=IV$ (random number, not secret)
 
-### Encryption
+### [[Encryption]]
 ![[Pasted image 20240220134537.png]]
 ### Decryption
 ![[Pasted image 20240220134550.png]]

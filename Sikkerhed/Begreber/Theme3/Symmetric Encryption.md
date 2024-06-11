@@ -1,4 +1,4 @@
-Symmetric encryption uses the same key to both encrypt and decrypt data.
+Symmetric [[encryption]] uses the same key to both encrypt and decrypt data.
 ![[Pasted image 20240220135656.png]]
 ## Let’s try
 ### aes.py

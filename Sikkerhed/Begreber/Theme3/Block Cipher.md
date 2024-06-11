@@ -1,4 +1,4 @@
-# Symmetric Block encryption algorithms
+# Symmetric Block [[encryption]] algorithms
 - [[Data Encryption Standard (DES)]]
 - [[Triple DES (3DES)]]
 - [[AES|Advanced Encryption Standard (AES)]]

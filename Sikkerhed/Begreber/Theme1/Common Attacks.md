@@ -6,6 +6,13 @@
 > - What can we do about it? (and why it is important to know the [[Adversaries enemies|attackers]]?)
 
 ![[Pasted image 20240610172414.png]]
+
+[[Malware]]
+[[Denial of Service (DoS)]]
+[[Man-ln-The-Middle (MITM)]]
+[[Phishing]]
+[[Ramsomware]]
+[[Information theft]]
 # Common attacks: [[Malware]]
 
 > [!NOTE] **[[Malware]]**
@@ -16,16 +23,16 @@
 
 ## The Malware Zoo
 - Ramsomware
-- Spyware
-- Virus
-- Trojan horse
-- Rootkit
-- Worm
-- Backdoor
-- Adware
-- Botnet
+- [[Spyware]]
+- [[Virus]]
+- [[Trojan horse]]
+- [[Rootkit]]
+- [[Worm]]
+- [[Backdoor]]
+- [[Adware]]
+- [[Botnet]]
 
-# Common attacks: Denial of Service (DoS)
+# Common attacks: [[Denial of Service (DoS)]]
 
 > [!NOTE] **[[Denial of Service (DoS)]]**
 > **A denial-of-service (DoS) attack** is an attempt to make a machine or network resource unavailable to its intended users.
@@ -39,7 +46,7 @@
 # Common attacks: [[Man-ln-The-Middle (MITM)]]
 
 > [!NOTE] **A [[Man-ln-The-Middle (MITM)]] Attack**
-> is a type of cyber attack in which the attacker secretly intercepts and relays messages between two parties who believe they are communicating directly with each other.
+> is a type of cyber attack in which the attacker secretly intercepts and relays [[messages]] between two parties who believe they are communicating directly with each other.
 
 - Threat to **confidentiality** and **integrity**
 - MiTMcyber attacks pose a serious threat to online security because they give the attacker the ability to capture and manipulate sensitive personal information in real time (e.g., login credentials, account details or credit card numbers)
@@ -47,7 +54,7 @@
 # Common attacks: [[Phishing]]
 
 > [!NOTE] **[[Phishing]]**
-> is a type of social engineering attack where attackers trick individuals to reveal sensitive information such as passwords, credit card numbers, or other personal information.
+> is a type of social engineering attack where attackers trick individuals to reveal sensitive information such as [[passwords]], credit card numbers, or other personal information.
 
 > [!faq] **Examples of [[Phishing]] attacks include:**
 > - **An email** that appears to be from a well-known bank or financial institution and asks the recipient to click on a link to update their account information. 
@@ -58,7 +65,7 @@
 # Common attacks: [[Ransomware]]
 
 > [!NOTE] **Know this:**
-> - What is a ransomware attack?
+> - What is a [[ransomware]] attack?
 > - What is the goal of the attacker?
 > - How the user can decide to pay or not?
 > **video om [[Ransomware]] og [[Spyware]]: [VIDEO](https://www.youtube.com/watch?v=rVl7y-u7Hrs)**

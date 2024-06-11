@@ -11,7 +11,7 @@ sss
 s
 ### SHA 1: Vulnerable
 Uses [[Merkle–Damgård construction]]
-2017: SHA-1's collision-resistance property was broken
+2017: SHA-1's [[collision]]-resistance property was broken
 
 > [!NOTE] CWI Amsterdam and Google
 > They managed to generate two different PDF files, one in blue and the other in red color, which produce the same hash output.

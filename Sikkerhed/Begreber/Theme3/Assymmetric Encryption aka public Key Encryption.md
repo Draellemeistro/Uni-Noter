@@ -15,12 +15,12 @@
 > What information can be made public and what information should be kept secret?
 
 ### [[Diffie Hellman|Diffie Hellman key exchange]]
-- Purpose of the algorithm is to enable two users to exchange a secret key securely that then can be used for subsequent encryption of messages
+- Purpose of the algorithm is to enable two users to exchange a secret key securely that then can be used for subsequent [[encryption]] of [[messages]]
 - The algorithm itself is limited to the exchange of the keys
 - Depends for its effectiveness on the difficulty of computing discrete logarithms
 
 > [!NOTE] Questions
 > - What information is publicly available?
-> - Does [[Diffie Hellman|DH]] provide authentication?
+> - Does [[Diffie Hellman|DH]] provide [[authentication]]?
 > - Is a [[Man-ln-The-Middle (MITM)|man-in-the-middle]] attack possible?
 

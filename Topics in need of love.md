@@ -3,7 +3,7 @@
 > [!NOTE] **Summary of Theme 1:** *INTRODUCTION TO CYBER SECURITY*
 > - [[Defining Security|Security requirements]] 
 > 	- [[CIA triad]]
-> 	- Other Security requirements
+> 	- [](CIA%20triad%20or%20triage.md)y requirements
 > - Different types of attacks
 > 	- [[Ransomware]], [[Phishing]]
 > 	- DDoS([[Denial of Service (DoS)]])

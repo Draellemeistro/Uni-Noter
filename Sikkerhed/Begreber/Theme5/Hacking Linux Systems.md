@@ -52,7 +52,7 @@ defense mechanism for Linux systems:
 - Use Metasploit to gain shell access.
 ![[Pasted image 20240608172441.png]]
 
-# Reverse telnet and Back Channel
+# Reverse telnet and [[Back Channel]]
 - **Back channel** as a mechanism where the communication channel originates from the target system rather than from the attacking system.
 - In **reverse telnet**, telnet is used to create a back channel from the target system to the attackers’ system.
 

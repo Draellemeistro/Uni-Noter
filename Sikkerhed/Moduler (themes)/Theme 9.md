@@ -10,7 +10,7 @@ asd
 - [[Risk management]]
 	- [[Risk frameworks]]
 	- [[Risk assessment]]
-- [[CIA triad]]
+- [[CIA triad or triage]]
 - [[Risk study case]]
 
 

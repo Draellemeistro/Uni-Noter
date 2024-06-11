@@ -1,6 +1,6 @@
 ## Phishing   
 **Phishing** is a type of social engineering attack where attackers trick individuals to reveal   
-sensitive information such as passwords, credit card numbers, or other personal information.   
+sensitive information such as [[passwords]], credit card numbers, or other personal information.   
 #### Examples of phishing attacks include:   
 - **An email** that appears to be from a well-known bank or financial institution and asks the recipient to click on a link to update their account information. 
 - **A fake login page** that appears to be from a popular social media site and requests users to enter their username and password.

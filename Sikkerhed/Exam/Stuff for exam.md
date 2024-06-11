@@ -5,7 +5,7 @@
 
 
 > [!quote] Extra info
-[](ExamExpectationsSecurity.md)md). Assignments makes you prepared for examples. Helps focus on key areas
+[](ExamExpectationsSecurity.md)md)md). Assignments makes you prepared for examples. Helps focus on key areas
 > (???) picture meaning -> in more detail (???)
 > 
 > "*Anything else, just e-mail me or come by my office*"

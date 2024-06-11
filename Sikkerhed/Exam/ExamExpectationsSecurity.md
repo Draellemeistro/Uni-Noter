@@ -71,6 +71,20 @@
 - What is code injection attack 
 	- How is it used 
 	- How to prevent it?
+- What is [[XSS]] and [[CSRF]]?
+	- Similar but different
+	- What to achieve with it?
+	- What happens?
+- What are cookies
+	- How attackers use cookies?
+	- Properties of cookies that can be misused?
+- Buffer overflow
+	- If you know what it is.?
+	- Know why it happens?
+- Regular expressions 
+	- Mention reqular expressions?
+	- why used
+	- examples
 # Lecture 6 [[Lecture6ExamTopics]]
 - What is [[XSS]] and [[CSRF]]?
 	- Similar but different

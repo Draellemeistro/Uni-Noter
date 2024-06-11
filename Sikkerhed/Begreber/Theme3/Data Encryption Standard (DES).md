@@ -1,4 +1,4 @@
-Follows Feistel Cipher structure
+Follows [[Feistel Cipher]] structure
 
 - Block size: 64 bits
 - Key size: 56 bits
@@ -10,7 +10,7 @@ Follows Feistel Cipher structure
 > [!NOTE] DISADVANTAGE
 > **==The main disadvantage: the keyspace is relatively small==**
 
-## Triple DES (3DES)
+## [[Triple DES (3DES)]]
 - Run DES three times, each time using a different key
 - 3 keys of 56 bits: $k_1k_2k_3$
 - ciphertext =$E_{k3}(D_{k2}(E_{k1}(plaintext)))$

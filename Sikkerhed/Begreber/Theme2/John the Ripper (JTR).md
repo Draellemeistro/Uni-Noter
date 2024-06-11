@@ -5,11 +5,11 @@ sss
 # More info
 ## Modes
 ### 1. Single crack mode
-uses the login names together with other fields from the passwd file, also with a large set of mangling rules applied. This is the fastest cracking mode and is applicable to very simple passwords.
+uses the login names together with other fields from the passwd file, also with a large set of mangling rules applied. This is the fastest cracking mode and is applicable to very simple [[passwords]].
 ### 2. Dictionary attack
-In this mode you need to supply a dictionary file that contains one word per line and a password file. You can enable word mangling rules which are used to modify or "mangle" words producing other likely passwords.
+In this mode you need to supply a dictionary file that contains one word per line and a password file. You can enable word mangling rules which are used to modify or "mangle" words producing other likely [[passwords]].
 ### 3. "Incremental" mode
-This is the most powerful cracking mode because it will try all possible character combinations as passwords. If you supply a random password with length of more than 12-14 chars will never terminate and you'll have to interrupt it manually
+This is the most powerful cracking mode because it will try all possible character combinations as [[passwords]]. If you supply a random password with length of more than 12-14 chars will never terminate and you'll have to interrupt it manually
 
 ## brute force offline
 - JtR operates mainly on hashed passwords stored in files on your local system.
@@ -42,8 +42,8 @@ This is the most powerful cracking mode because it will try all possible charact
 
 ## Other Tools for Brute-force attacks or dictionary attacks
 - **Automated tools:** [[Hydra]], [[Medusa]]
-	- Primarily targets online services like SSH, FTP, HTTP, and more.
+	- Primarily targets online services like SSH, [[FTP]], [[Netværk/Begreber/Application-layer/HTTP|HTTP]], and more.
 	- But we need to know the username (or try to guess it)
 	- And then we have to choose a password list - and we choose the John The Ripper list.
 	- **Example**:
-		-  Hydra -l admin -P /usr/share/john/password.lst -vV ftplogin.com ftp
+		-  [[Hydra]] -l admin -P /usr/share/john/password.lst -vV ftplogin.com ftp

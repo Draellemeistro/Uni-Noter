@@ -39,7 +39,7 @@
 	- Difficult to detect -> prevention, not detection   
 	- Release of message contents 
 	- Traffic analysis
-### [[Sikkerhed/Common Attacks]]
+### [[Common Attacks]]
 [[Malware]]
 [[Denial of Service (DoS)]]
 [[Man-ln-The-Middle (MITM)]]

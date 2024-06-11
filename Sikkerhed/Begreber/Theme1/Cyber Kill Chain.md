@@ -8,13 +8,13 @@ The **seven steps** of the Cyber Kill Chain enhance visibility into an attack an
 ## 1 Reconnaissance
 Harvesting email addresses, conference information, etc.
 ## 2 Weaponization
-Coupling with backdoor into deliverable payload
+Coupling with [[backdoor]] into deliverable payload
 ## 3 Delivery
 Delivering weaponized bundle to the victiom via email, web, USB, etc.
 ## 4 Exploitation
 Exploiting vulnerability to execute code on victim's system
 ## 5 Installation
-Installing malware on the asset
+Installing [[malware]] on the asset
 ## 6 Command & Control (C2)
 Command channel for remote manipulation of victim
 ## 7 Actions on Objectives

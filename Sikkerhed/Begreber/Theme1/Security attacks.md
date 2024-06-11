@@ -9,7 +9,7 @@
 ## ==ACTIVE== ATTACKS: *involve some modifications of the data steam or the creation of a false stream*
 - Masquerade
 - Replay
-- Modification of messages
+- Modification of [[messages]]
 - Denial of Service
 
 ## ==PASSIVE== ATTACKS: *are in the nature of eavesdropping on, or monitoring of exchanged packets*

@@ -15,13 +15,13 @@
 ![[Pasted image 20240610190923.png]]
 
 > [!important] **REMEMBER**
-> - Hash functions **DO NOT** have a secret key.
+> - Hash [[functions]] **DO NOT** have a secret key.
 > - The hash function H is **PUBLIC**, anyone can evaluate the function.
 > - The function is *deterministic* and *public*, but the **MAPPING SHOULD LOOK "RANDOM'"**.
 ## Example
 ![[Pasted image 20240610195443.png]]
 # Definition of Hashing
-Sometimes referred to as **one-way encryption**
+Sometimes referred to as **one-way [[encryption]]**
 Hashing, or a Hashing Algorithm takes "something" (a message, a file, a certificate, computer code, anything) and turns into a smaller, representational sample of the original something, or a "fingerprint". The **result of a hashing algorithm is known as a Digest **(among other names).
 
 ![[Pasted image 20240212191024.png]]
@@ -31,8 +31,8 @@ To check if two files are perfectly identical, you can simply run them both thro
 
 ## Properties of Hashing
 - It is **deterministic**: the same message always results in the same hash. A hash algorithm always gives an** output of identical size** regardless of the size of the input.
-- It is **one-way**: It is quick to compute the hash value for any given message but on the other hand it is **infeasible to generate a message from its hash value** except by trying all possible messages
-- It is **collision-free**: It is **infeasible to find two different messages with the same hash value**
+- It is **one-way**: It is quick to compute the hash value for any given message but on the other hand it is **infeasible to generate a message from its hash value** except by trying all possible [[messages]]
+- It is **[[collision]]-free**: It is **infeasible to find two different [[messages]] with the same hash value**
 - It has **avalanche effect**: A small change to a message should change the hash value so extensively that the new hash value appears **uncorrelated** with the old hash value
 # Real world Hashing Algorithm requirements
 ## The three requirements for hashing algorithms
@@ -40,8 +40,8 @@ To check if two files are perfectly identical, you can simply run them both thro
 
 ### Thought experiment
 ![[Pasted image 20240215145704.png]]
-==**the first one, COLLISION RESISTANCE is easier to break, courtesy of the**== [[Birthday paradox]]
-### 1: Collision Resistant
+==**the first one, [[COLLISION]] RESISTANCE is easier to break, courtesy of the**== [[Birthday paradox]]
+### 1: [[Collision]] Resistant
 a
 ![[Pasted image 20240215144810.png]]
 
